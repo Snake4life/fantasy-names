@@ -1,0 +1,22 @@
+cd "$(dirname "$0")/generators"
+
+echo -e "<select class=\"nametype\">"
+for type in `find -type d ! -path . -printf "%f\n"`; do
+	pretty=${type//-/ }
+	pretty="$(echo $pretty | sed 's/.*/\L&/; s/[a-z]*/\u&/g')"
+	echo -e "\t<option value=\"$type\">$pretty</option>"
+done
+echo -e "</select>"
+
+echo -e "\n"
+
+for type in `find -type d ! -path . -printf "%f\n"`; do
+	echo -e "<select class=\"namelist\" id=\"$type\">"
+	for list in `find $type -type f -printf "%f\n"`; do
+		list=${list//.js/}
+		pretty=${list//-/ }
+		pretty="$(echo $pretty | sed 's/.*/\L&/; s/[a-z]*/\u&/g')"
+		echo -e "\t<option value=\"$list\">$pretty</option>"
+	done
+	echo -e "</select>"
+done
