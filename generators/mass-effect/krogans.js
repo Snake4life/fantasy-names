@@ -1,9 +1,9 @@
-var names1 = ["B", "Br", "C", "Cr", "Ch", "D", "Dr", "F", "G", "Gr", "H", "J", "K", "Kh", "Kr", "M", "N", "P", "Pr", "Q", "Qr", "R", "S", "Sr", "Str", "T", "Tr", "V", "Vr", "W", "Wr", "Zr"];
-var names2 = ["a", "e", "u", "i", "o", "a", "u"];
-var names3 = ["rr", "x", "nd", "nk", "yas", "rm", "rn", "rk", "tack", "rg", "g", "gg", "sk", "zk", "nd", "d", "rd", "xx", "yak", "yax", "rak", "nak", "kar", "kor", "lak", "gor", "gar", "gas", "r"];
-var names5 = ["ash", "bakur", "brakir", "dark", "drak", "drax", "dtar", "k", "kador", "karor", "kirum", "kmar", "kmor", "krax", "ksan", "ksar", "kson", "ksor", "l", "lot", "mar", "nar", "ndok", "ntor", "rax", "rbok", "rbon", "rdak", "rdan", "rdok", "rdon", "rgal", "rgon", "rkan", "rloc", "rlok", "rsan", "rtak", "tarog", "tarok", "tarum", "tarun", "tatog", "tilak", "vanor", "varog", "vrak", "x", "yrdok", "yrloc"];
-
 function generator$mass_effect$krogans(type) {
+	var names1 = ["B", "Br", "C", "Cr", "Ch", "D", "Dr", "F", "G", "Gr", "H", "J", "K", "Kh", "Kr", "M", "N", "P", "Pr", "Q", "Qr", "R", "S", "Sr", "Str", "T", "Tr", "V", "Vr", "W", "Wr", "Zr"];
+	var names2 = ["a", "e", "u", "i", "o", "a", "u"];
+	var names3 = ["rr", "x", "nd", "nk", "yas", "rm", "rn", "rk", "tack", "rg", "g", "gg", "sk", "zk", "nd", "d", "rd", "xx", "yak", "yax", "rak", "nak", "kar", "kor", "lak", "gor", "gar", "gas", "r"];
+	var names5 = ["ash", "bakur", "brakir", "dark", "drak", "drax", "dtar", "k", "kador", "karor", "kirum", "kmar", "kmor", "krax", "ksan", "ksar", "kson", "ksor", "l", "lot", "mar", "nar", "ndok", "ntor", "rax", "rbok", "rbon", "rdak", "rdan", "rdok", "rdon", "rgal", "rgon", "rkan", "rloc", "rlok", "rsan", "rtak", "tarog", "tarok", "tarum", "tarun", "tatog", "tilak", "vanor", "varog", "vrak", "x", "yrdok", "yrloc"];
+
 	if (type === 1) {
 		var names4 = [""];
 	} else {

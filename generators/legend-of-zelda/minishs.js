@@ -1,9 +1,9 @@
-var nm1 = ["B", "D", "F", "G", "H", "J", "K", "L", "M", "N", "P", "T"];
-var nm2 = ["e", "i", "o", "e", "i", "o", "a", "u"];
-var nm3 = ["b", "d", "f", "g", "k", "l", "m", "n", "p", "r", "s", "t"];
-var nm4 = ["ari", "tari", "rari"];
-
 function generator$legend_of_zelda$minishs() {
+	var nm1 = ["B", "D", "F", "G", "H", "J", "K", "L", "M", "N", "P", "T"];
+	var nm2 = ["e", "i", "o", "e", "i", "o", "a", "u"];
+	var nm3 = ["b", "d", "f", "g", "k", "l", "m", "n", "p", "r", "s", "t"];
+	var nm4 = ["ari", "tari", "rari"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		rnd = Math.floor(Math.random() * nm1.length);

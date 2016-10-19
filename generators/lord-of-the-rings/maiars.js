@@ -1,17 +1,16 @@
-﻿
-var nm1 = ["f", "l", "m", "n", "ph", "s", "sh", "w", "y", "z", "", ""];
-var nm2 = ["a", "e", "o", "i", "u", "ó", "é", "ie", "ui", "ia", "ea", "ae", "ua"];
-var nm3 = ["l", "lm", "ln", "ls", "n", "nn", "ph", "r", "s", "sh", "ss", "th"];
-var nm4 = ["r", "n", "s", "th", "l", "m"];
-var nm5 = ["a", "e", "ë", "é", "ó", "", "", "", "", ""];
+function generator$lord_of_the_rings$maiars(type) {﻿
+	var nm1 = ["f", "l", "m", "n", "ph", "s", "sh", "w", "y", "z", "", ""];
+	var nm2 = ["a", "e", "o", "i", "u", "ó", "é", "ie", "ui", "ia", "ea", "ae", "ua"];
+	var nm3 = ["l", "lm", "ln", "ls", "n", "nn", "ph", "r", "s", "sh", "ss", "th"];
+	var nm4 = ["r", "n", "s", "th", "l", "m"];
+	var nm5 = ["a", "e", "ë", "é", "ó", "", "", "", "", ""];
 
-var nm6 = ["c", "k", "l", "m", "n", "p", "r", "s", "t", "th", "", ""];
-var nm7 = ["a", "e", "o", "i", "u", "ó", "é", "ai", "eo", "io", "eö", "uo", "ua"];
-var nm8 = ["l", "ll", "lm", "ln", "ls", "m", "md", "n", "nd", "nm", "nw", "r", "s", "ss", "t", "w"];
-var nm9 = ["l", "m", "n", "nd", "r", "s", "t", "th"];
-var nm10 = ["o", "e", "ë", "ó", "", "", "", ""];
+	var nm6 = ["c", "k", "l", "m", "n", "p", "r", "s", "t", "th", "", ""];
+	var nm7 = ["a", "e", "o", "i", "u", "ó", "é", "ai", "eo", "io", "eö", "uo", "ua"];
+	var nm8 = ["l", "ll", "lm", "ln", "ls", "m", "md", "n", "nd", "nm", "nw", "r", "s", "ss", "t", "w"];
+	var nm9 = ["l", "m", "n", "nd", "r", "s", "t", "th"];
+	var nm10 = ["o", "e", "ë", "ó", "", "", "", ""];
 
-function generator$lord_of_the_rings$maiars(type) {
 
 	i = Math.floor(Math.random() * 10); {
 		if (type === 1) {

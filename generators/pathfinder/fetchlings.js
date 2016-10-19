@@ -1,12 +1,12 @@
-var nm1 = ["", "", "", "br", "dr", "gr", "j", "m", "n", "q", "qr", "r", "s", "tr", "x", "y", "z"];
-var nm2 = ["a", "e", "i", "o", "u"];
-var nm3 = ["c", "d", "g", "h", "j", "k", "l", "m", "n", "r", "s", "t", "v", "z"];
-var nm4 = ["", "", "", "c", "h", "l", "m", "n", "r", "t", "x"];
-var nm5 = ["c", "f", "g", "h", "l", "m", "n", "q", "r", "s", "t", "th", "v", "y", "z"];
-var nm7 = ["c", "fz", "fn", "g", "gv", "gn", "gz", "h", "hn", "hv", "hz", "l", "lv", "lr", "ls", "lz", "m", "mr", "mv", "mz", "nv", "nz", "nr", "r", "rr", "rs", "rz", "rh", "rv", "sc", "sh", "sr", "sv", "th", "thr", "tv", "tn"];
-var nm8 = ["", "", "", "", "", "", "", "", "", "", "", "", "", "h", "l", "m", "n", "s", "x"];
-
 function generator$pathfinder$fetchlings(type) {
+	var nm1 = ["", "", "", "br", "dr", "gr", "j", "m", "n", "q", "qr", "r", "s", "tr", "x", "y", "z"];
+	var nm2 = ["a", "e", "i", "o", "u"];
+	var nm3 = ["c", "d", "g", "h", "j", "k", "l", "m", "n", "r", "s", "t", "v", "z"];
+	var nm4 = ["", "", "", "c", "h", "l", "m", "n", "r", "t", "x"];
+	var nm5 = ["c", "f", "g", "h", "l", "m", "n", "q", "r", "s", "t", "th", "v", "y", "z"];
+	var nm7 = ["c", "fz", "fn", "g", "gv", "gn", "gz", "h", "hn", "hv", "hz", "l", "lv", "lr", "ls", "lz", "m", "mr", "mv", "mz", "nv", "nz", "nr", "r", "rr", "rs", "rz", "rh", "rv", "sc", "sh", "sr", "sv", "th", "thr", "tv", "tn"];
+	var nm8 = ["", "", "", "", "", "", "", "", "", "", "", "", "", "h", "l", "m", "n", "s", "x"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		if (type === 1) {

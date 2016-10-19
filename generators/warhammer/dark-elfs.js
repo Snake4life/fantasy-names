@@ -1,15 +1,15 @@
-var nm1 = ["c", "d", "g", "k", "l", "m", "n", "q", "r", "t", "v"];
-var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ou", "au"];
-var nm3 = ["c", "cc", "cr", "ch", "g", "gh", "gr", "gn", "k", "kh", "kr", "kk", "kz", "l", "ll", "lk", "lc", "lg", "n", "nn", "nk", "r", "rv", "rk", "rc", "rg", "rz", "rl", "tr", "th", "vr", "v", "c", "g", "k", "l", "n", "r", "v", "c", "g", "k", "l", "n", "r", "v", "c", "g", "k", "l", "n", "r", "v"];
-var nm4 = ["c", "k", "l", "n", "r", "s", "t", "th"];
-var nm5 = ["c", "f", "h", "l", "m", "n", "r", "s", "sh", "th", "v"];
-var nm6 = ["a", "e", "i", "o"];
-var nm7 = ["b", "bh", "c", "ch", "gh", "gg", "h", "hh", "kh", "l", "ll", "lr", "ln", "lv", "r", "rr", "rt", "rl", "rs", "rn", "rv", "s", "ss", "sh", "t", "tt", "th", "v", "vh", "b", "c", "h", "l", "r", "s", "t", "v", "kh", "b", "c", "h", "l", "r", "s", "t", "v", "kh"];
-var nm8 = ["h", "n", "l", "sh", "s", "th", "", "", "", "", ""];
-var nm9 = ["amber", "ash", "battle", "blood", "cinder", "dark", "dawn", "dead", "death", "doom", "dread", "dusk", "dust", "ember", "fall", "fallen", "fell", "fire", "flame", "gloom", "grim", "haze", "hell", "nether", "night", "pyre", "rage", "rain", "shade", "shadow", "silent", "skull", "steel", "storm", "thunder", "void", "war", "wild"];
-var nm10 = ["arm", "arrow", "axe", "bane", "basher", "binder", "blade", "blaze", "bleeder", "blight", "breaker", "bringer", "caller", "cleaver", "crusher", "cutter", "eye", "eyes", "fall", "fury", "grip", "hand", "heart", "hunter", "mantle", "maul", "might", "more", "reaper", "reaver", "rider", "ripper", "runner", "scar", "seeker", "shade", "shadow", "shard", "slayer", "sorrow", "stalker", "stride", "strike", "striker", "surge", "taker"];
-
 function generator$warhammer$dark_elfs(type) {
+	var nm1 = ["c", "d", "g", "k", "l", "m", "n", "q", "r", "t", "v"];
+	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ou", "au"];
+	var nm3 = ["c", "cc", "cr", "ch", "g", "gh", "gr", "gn", "k", "kh", "kr", "kk", "kz", "l", "ll", "lk", "lc", "lg", "n", "nn", "nk", "r", "rv", "rk", "rc", "rg", "rz", "rl", "tr", "th", "vr", "v", "c", "g", "k", "l", "n", "r", "v", "c", "g", "k", "l", "n", "r", "v", "c", "g", "k", "l", "n", "r", "v"];
+	var nm4 = ["c", "k", "l", "n", "r", "s", "t", "th"];
+	var nm5 = ["c", "f", "h", "l", "m", "n", "r", "s", "sh", "th", "v"];
+	var nm6 = ["a", "e", "i", "o"];
+	var nm7 = ["b", "bh", "c", "ch", "gh", "gg", "h", "hh", "kh", "l", "ll", "lr", "ln", "lv", "r", "rr", "rt", "rl", "rs", "rn", "rv", "s", "ss", "sh", "t", "tt", "th", "v", "vh", "b", "c", "h", "l", "r", "s", "t", "v", "kh", "b", "c", "h", "l", "r", "s", "t", "v", "kh"];
+	var nm8 = ["h", "n", "l", "sh", "s", "th", "", "", "", "", ""];
+	var nm9 = ["amber", "ash", "battle", "blood", "cinder", "dark", "dawn", "dead", "death", "doom", "dread", "dusk", "dust", "ember", "fall", "fallen", "fell", "fire", "flame", "gloom", "grim", "haze", "hell", "nether", "night", "pyre", "rage", "rain", "shade", "shadow", "silent", "skull", "steel", "storm", "thunder", "void", "war", "wild"];
+	var nm10 = ["arm", "arrow", "axe", "bane", "basher", "binder", "blade", "blaze", "bleeder", "blight", "breaker", "bringer", "caller", "cleaver", "crusher", "cutter", "eye", "eyes", "fall", "fury", "grip", "hand", "heart", "hunter", "mantle", "maul", "might", "more", "reaper", "reaver", "rider", "ripper", "runner", "scar", "seeker", "shade", "shadow", "shard", "slayer", "sorrow", "stalker", "stride", "strike", "striker", "surge", "taker"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		rnd = Math.floor(Math.random() * nm9.length);

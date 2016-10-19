@@ -1,15 +1,15 @@
-var nm1 = ["Ch", "D", "F", "H", "J", "K", "L", "M", "N", "P", "S", "Sk", "Sp", "St", "Str", "T", "T'K", "V", "V'L", "S", "Sk", "Sp", "St", "Str", "S"];
-var nm2 = ["aa", "ia", "au", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "y", "y"];
-var nm3 = ["d", "f", "j", "kk", "l", "ll", "lk", "lv", "n", "p", "r", "rr", "s", "str", "ss", "t", "v"];
-var nm4 = ["", "", "c", "ck", "k", "k", "k", "l", "lk", "m", "n", "nn", "r", "rk", "s", "ss", "t", "tt", "th", "v"];
-
-var nm5 = ["f", "h", "l", "m", "n", "s", "t's", "t'r", "t'h", "t'l", "t'm", "t'p", "t'pl", "t'pr", "t'sh", "v'l", "v"];
-var nm6 = ["", "", "", "", "", "f", "h", "l", "m", "n", "s", "t's", "t'r", "t'h", "t'l", "t'm", "t'p", "t'pl", "t'pr", "t'sh", "v'l", "v"];
-var nm7 = ["aa", "ai", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u"];
-var nm8 = ["k", "l", "m", "n", "nv", "nn", "r", "rr", "s", "ss", "t", "v"];
-var nm9 = ["", "", "k", "l", "n", "ng", "r", "s", "th"];
-
 function generator$star_trek$vulcans(type) {
+	var nm1 = ["Ch", "D", "F", "H", "J", "K", "L", "M", "N", "P", "S", "Sk", "Sp", "St", "Str", "T", "T'K", "V", "V'L", "S", "Sk", "Sp", "St", "Str", "S"];
+	var nm2 = ["aa", "ia", "au", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "y", "y"];
+	var nm3 = ["d", "f", "j", "kk", "l", "ll", "lk", "lv", "n", "p", "r", "rr", "s", "str", "ss", "t", "v"];
+	var nm4 = ["", "", "c", "ck", "k", "k", "k", "l", "lk", "m", "n", "nn", "r", "rk", "s", "ss", "t", "tt", "th", "v"];
+
+	var nm5 = ["f", "h", "l", "m", "n", "s", "t's", "t'r", "t'h", "t'l", "t'm", "t'p", "t'pl", "t'pr", "t'sh", "v'l", "v"];
+	var nm6 = ["", "", "", "", "", "f", "h", "l", "m", "n", "s", "t's", "t'r", "t'h", "t'l", "t'm", "t'p", "t'pl", "t'pr", "t'sh", "v'l", "v"];
+	var nm7 = ["aa", "ai", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u"];
+	var nm8 = ["k", "l", "m", "n", "nv", "nn", "r", "rr", "s", "ss", "t", "v"];
+	var nm9 = ["", "", "k", "l", "n", "ng", "r", "s", "th"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		if (type === 1) {

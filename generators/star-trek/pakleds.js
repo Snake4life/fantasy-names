@@ -1,10 +1,10 @@
-var nm1 = ["B", "D", "G", "H", "K", "L", "N", "M", "P", "R"];
-var nm2 = ["a", "e", "o", "i", "u"];
-var nm3 = ["b", "d", "g", "h", "k", "l", "n", "m", "p", "r"];
-var nm4 = ["b", "d", "g", "h", "k", "l", "n", "m", "p", "r", "", ""];
-var nm5 = ["b", "d", "g", "k", "l", "m", "p", "r", "gg", "kk", "ll", "rr"];
-
 function generator$star_trek$pakleds(type) {
+	var nm1 = ["B", "D", "G", "H", "K", "L", "N", "M", "P", "R"];
+	var nm2 = ["a", "e", "o", "i", "u"];
+	var nm3 = ["b", "d", "g", "h", "k", "l", "n", "m", "p", "r"];
+	var nm4 = ["b", "d", "g", "h", "k", "l", "n", "m", "p", "r", "", ""];
+	var nm5 = ["b", "d", "g", "k", "l", "m", "p", "r", "gg", "kk", "ll", "rr"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		if (type === 1) {

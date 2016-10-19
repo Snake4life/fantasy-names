@@ -1,16 +1,16 @@
-var nm1 = ["", "d", "g", "j", "k", "kr", "m", "n", "pl", "r", "st", "t", "y", "z"];
-var nm2 = ["a", "e", "i", "o", "u"];
-var nm3 = ["g", "gz", "ggt", "j", "k", "kz", "kr", "km", "l", "m", "mz", "nz", "n", "nn", "r", "rr", "rk", "rd", "t", "tg", "tk", "zk", "zr", "zg", "z", "g", "j", "k", "l", "m", "n", "r", "t", "z", "g", "j", "k", "l", "m", "n", "r", "t", "z"];
-var nm4 = ["c", "chv", "g", "gt", "k", "n", "s", "ss", "t", "tt", "z"];
-var nm5 = ["a", "e", "i", "o", "u", "ee", "ii", "", ""];
-var nm6 = ["g", "gz", "ggt", "j", "k", "kz", "kr", "km", "l", "m", "mz", "nz", "n", "nn", "r", "rr", "rk", "rd", "t", "tg", "tk", "zk", "zr", "zg", "z", "c", "chv", "g", "gt", "k", "n", "s", "ss", "t", "tt", "z"];
-
-var nm7 = ["", "", "c", "g", "gl", "h", "j", "k", "l", "n", "m", "r", "s", "sh", "y"];
-var nm8 = ["a", "e", "i", "o", "u", "ia", "ie", "uo", "ai", "uu", "oo", "ae", "uoa"];
-var nm9 = ["gr", "gg", "g", "gt", "h", "l", "m", "n", "nn", "q", "qq", "r", "rr", "sh", "s", "ss", "t", "tt", "v", "y", "z"];
-var nm10 = ["", "", "", "", "", "", "", "", "ch", "g", "m", "n", "s"];
-
 function generator$star_trek$saurians(type) {
+	var nm1 = ["", "d", "g", "j", "k", "kr", "m", "n", "pl", "r", "st", "t", "y", "z"];
+	var nm2 = ["a", "e", "i", "o", "u"];
+	var nm3 = ["g", "gz", "ggt", "j", "k", "kz", "kr", "km", "l", "m", "mz", "nz", "n", "nn", "r", "rr", "rk", "rd", "t", "tg", "tk", "zk", "zr", "zg", "z", "g", "j", "k", "l", "m", "n", "r", "t", "z", "g", "j", "k", "l", "m", "n", "r", "t", "z"];
+	var nm4 = ["c", "chv", "g", "gt", "k", "n", "s", "ss", "t", "tt", "z"];
+	var nm5 = ["a", "e", "i", "o", "u", "ee", "ii", "", ""];
+	var nm6 = ["g", "gz", "ggt", "j", "k", "kz", "kr", "km", "l", "m", "mz", "nz", "n", "nn", "r", "rr", "rk", "rd", "t", "tg", "tk", "zk", "zr", "zg", "z", "c", "chv", "g", "gt", "k", "n", "s", "ss", "t", "tt", "z"];
+
+	var nm7 = ["", "", "c", "g", "gl", "h", "j", "k", "l", "n", "m", "r", "s", "sh", "y"];
+	var nm8 = ["a", "e", "i", "o", "u", "ia", "ie", "uo", "ai", "uu", "oo", "ae", "uoa"];
+	var nm9 = ["gr", "gg", "g", "gt", "h", "l", "m", "n", "nn", "q", "qq", "r", "rr", "sh", "s", "ss", "t", "tt", "v", "y", "z"];
+	var nm10 = ["", "", "", "", "", "", "", "", "ch", "g", "m", "n", "s"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		if (type === 1) {

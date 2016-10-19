@@ -1,23 +1,23 @@
-var nm1 = ["a", "e", "o", "i", "", "", "", "", "", "", ""];
-var nm2 = ["k", "r", "sh", "shr", "t", "th", "s", "b"];
-var nm3 = ["a", "e", "o", "i", "y"];
-var nm4 = ["r", "b", "l", "v", "n", "s", "ss", "th", "hr", "hl"];
-var nm5 = ["a", "e", "o", "i", "ia", "ao", "aa"];
-
-var nm6 = ["Th'", "Ch'"];
-var nm7 = ["Sh'", "Zh'"];
-
-var nm8 = ["zh", "sh", "th", "z", "v", "rh", "shr", "vh", "k", "t", "r", "ch", "q"];
-var nm9 = ["a", "e", "o", "i", "y", "ao", "ia", "aa"];
-var nm10 = ["r", "l", "v", "n", "th", "hr", "hl", "nn", "rh", "lr", "sr", "kr", "tr", "ln", "thr", "q", "ll", "rr"];
-var nm11 = ["a", "e", "o", "i"];
-var nm12 = ["th", "s", "ss", "n", "t", "r", "hr", "rh", "l", "k", "q"];
-
-var nm13 = ["vr", "thr", "v", "jh", "p", "t", "th", "s", "shr", "s", "z"];
-var nm14 = ["th", "r", "m", "ss", "v", "l", "ll", "r", "z", "t", "tt", "sh"];
-var nm15 = ["h", "s", "l", "ss", "n", "t", "th", "sh", "", "", "", "", "", "", "", "", "", "", "", "", ""];
-
 function generator$star_trek$andorians(type) {
+	var nm1 = ["a", "e", "o", "i", "", "", "", "", "", "", ""];
+	var nm2 = ["k", "r", "sh", "shr", "t", "th", "s", "b"];
+	var nm3 = ["a", "e", "o", "i", "y"];
+	var nm4 = ["r", "b", "l", "v", "n", "s", "ss", "th", "hr", "hl"];
+	var nm5 = ["a", "e", "o", "i", "ia", "ao", "aa"];
+
+	var nm6 = ["Th'", "Ch'"];
+	var nm7 = ["Sh'", "Zh'"];
+
+	var nm8 = ["zh", "sh", "th", "z", "v", "rh", "shr", "vh", "k", "t", "r", "ch", "q"];
+	var nm9 = ["a", "e", "o", "i", "y", "ao", "ia", "aa"];
+	var nm10 = ["r", "l", "v", "n", "th", "hr", "hl", "nn", "rh", "lr", "sr", "kr", "tr", "ln", "thr", "q", "ll", "rr"];
+	var nm11 = ["a", "e", "o", "i"];
+	var nm12 = ["th", "s", "ss", "n", "t", "r", "hr", "rh", "l", "k", "q"];
+
+	var nm13 = ["vr", "thr", "v", "jh", "p", "t", "th", "s", "shr", "s", "z"];
+	var nm14 = ["th", "r", "m", "ss", "v", "l", "ll", "r", "z", "t", "tt", "sh"];
+	var nm15 = ["h", "s", "l", "ss", "n", "t", "th", "sh", "", "", "", "", "", "", "", "", "", "", "", "", ""];
+
 
 	i = Math.floor(Math.random() * 10); {
 		if (type === 1) {

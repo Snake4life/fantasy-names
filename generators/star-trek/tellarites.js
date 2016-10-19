@@ -1,20 +1,20 @@
-var nm1 = ["B", "Br", "Ch", "C", "Cr", "D", "Dv", "Fr", "F", "G", "Gl", "Gr", "H", "J", "K", "Kh", "L", "M", "N", "Pr", "R", "Sh", "Sk", "T", "Th", "Tr", "V", "W", "X", "Z", "Zh"];
-var nm2 = ["aa", "ao", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "o"];
-var nm3 = ["bl", "fr", "g", "gr", "hr", "l", "ll", "nn", "nk", "r", "rgg", "rk", "s", "shl", "shn", "vr", "rt"];
-var nm4 = ["ch", "g", "gm", "k", "llv", "m", "n", "nn", "nch", "nd", "r", "rsh", "rc", "rg", "rv", "th", "s", "sh", "ss", "v"];
-var nm5 = ["", "", "", "", "", "", "", "", " bav", " bim", " blasch", " chim", " glasch", " glov", " lorin", " jav"];
-
-var nm6 = ["B", "Bl", "Ch", "C", "Cl", "D", "Fr", "Fr", "F", "G", "Gl", "Gh", "H", "J", "K", "Kh", "L", "M", "N", "P", "R", "Sh", "Sk", "T", "Th", "Tl", "V", "W", "Z", "Zh"];
-var nm8 = ["bl", "f", "ff", "g", "gg", "gr", "hr", "hl", "l", "ll", "nn", "nk", "r", "rk", "s", "ss", "shl", "shn", "v", "rth", "th", "t", "tt"];
-var nm9 = ["", "", "", "", "", "", "ch", "f", "g", "gh", "hg", "hk", "l", "ll", "m", "n", "nn", "nsh", "nd", "p", "r", "rr", "rs", "rg", "rn", "th", "s", "sh", "ss", "v", "w"];
-var nm10 = ["ch", "f", "g", "gh", "hg", "hk", "l", "ll", "m", "n", "nn", "nsh", "nd", "p", "r", "rr", "rs", "rg", "rn", "th", "s", "sh", "ss", "v", "w"];
-var nm11 = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "aa", "ao", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "o"];
-
-var nm12 = ["B", "Bl", "Br", "C", "Ch", "Cl", "Cr", "D", "Dv", "F", "Fr", "G", "Gh", "Gl", "Gr", "H", "J", "K", "Kh", "L", "M", "N", "P", "Pr", "R", "Sh", "Sk", "T", "Th", "Tl", "Tr", "V", "W", "X", "Z", "Zh"];
-var nm13 = ["bl", "f", "ff", "fr", "g", "gg", "gr", "hl", "hr", "l", "ll", "nk", "nn", "r", "rgg", "rk", "rth", "s", "shl", "shn", "ss", "t", "th", "tt", "v", "vr"];
-var nm14 = ["ch", "f", "g", "gh", "gm", "hg", "hk", "k", "l", "ll", "llv", "m", "n", "nch", "nd", "nn", "nsh", "p", "r", "rc", "rg", "rn", "rr", "rs", "rsh", "rv", "s", "sh", "ss", "th", "v", "w"];
-
 function generator$star_trek$tellarites(type) {
+	var nm1 = ["B", "Br", "Ch", "C", "Cr", "D", "Dv", "Fr", "F", "G", "Gl", "Gr", "H", "J", "K", "Kh", "L", "M", "N", "Pr", "R", "Sh", "Sk", "T", "Th", "Tr", "V", "W", "X", "Z", "Zh"];
+	var nm2 = ["aa", "ao", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "o"];
+	var nm3 = ["bl", "fr", "g", "gr", "hr", "l", "ll", "nn", "nk", "r", "rgg", "rk", "s", "shl", "shn", "vr", "rt"];
+	var nm4 = ["ch", "g", "gm", "k", "llv", "m", "n", "nn", "nch", "nd", "r", "rsh", "rc", "rg", "rv", "th", "s", "sh", "ss", "v"];
+	var nm5 = ["", "", "", "", "", "", "", "", " bav", " bim", " blasch", " chim", " glasch", " glov", " lorin", " jav"];
+
+	var nm6 = ["B", "Bl", "Ch", "C", "Cl", "D", "Fr", "Fr", "F", "G", "Gl", "Gh", "H", "J", "K", "Kh", "L", "M", "N", "P", "R", "Sh", "Sk", "T", "Th", "Tl", "V", "W", "Z", "Zh"];
+	var nm8 = ["bl", "f", "ff", "g", "gg", "gr", "hr", "hl", "l", "ll", "nn", "nk", "r", "rk", "s", "ss", "shl", "shn", "v", "rth", "th", "t", "tt"];
+	var nm9 = ["", "", "", "", "", "", "ch", "f", "g", "gh", "hg", "hk", "l", "ll", "m", "n", "nn", "nsh", "nd", "p", "r", "rr", "rs", "rg", "rn", "th", "s", "sh", "ss", "v", "w"];
+	var nm10 = ["ch", "f", "g", "gh", "hg", "hk", "l", "ll", "m", "n", "nn", "nsh", "nd", "p", "r", "rr", "rs", "rg", "rn", "th", "s", "sh", "ss", "v", "w"];
+	var nm11 = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "aa", "ao", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "o"];
+
+	var nm12 = ["B", "Bl", "Br", "C", "Ch", "Cl", "Cr", "D", "Dv", "F", "Fr", "G", "Gh", "Gl", "Gr", "H", "J", "K", "Kh", "L", "M", "N", "P", "Pr", "R", "Sh", "Sk", "T", "Th", "Tl", "Tr", "V", "W", "X", "Z", "Zh"];
+	var nm13 = ["bl", "f", "ff", "fr", "g", "gg", "gr", "hl", "hr", "l", "ll", "nk", "nn", "r", "rgg", "rk", "rth", "s", "shl", "shn", "ss", "t", "th", "tt", "v", "vr"];
+	var nm14 = ["ch", "f", "g", "gh", "gm", "hg", "hk", "k", "l", "ll", "llv", "m", "n", "nch", "nd", "nn", "nsh", "p", "r", "rc", "rg", "rn", "rr", "rs", "rsh", "rv", "s", "sh", "ss", "th", "v", "w"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		if (type === 1) {

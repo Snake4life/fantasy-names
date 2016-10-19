@@ -1,14 +1,14 @@
-var nm1 = ["B", "Br", "D", "Dr", "Gr", "J", "K", "Kr", "L", "N", "M", "S", "Sk", "Sn", "St", "T", "Tr", "V", "Vr"];
-var nm2 = ["a", "e", "i", "o", "u", "y", "aa", "ee"];
-var nm3 = ["g", "gg", "gt", "gh", "k", "kt", "kk", "l", "ll", "nt", "nx", "r", "rl", "rr", "rk", "rn", "rg", "sk"];
-var nm4 = ["a", "e", "i", "o", "u"];
-var nm5 = ["d", "g", "gr", "j", "k", "kr", "l", "mt", "ng", "nt", "r", "rt", "rn", "st", "ts", "th", "v"];
-var nm6 = ["", "", "g", "k", "l", "m", "n", "r", "x"];
-var nm7 = ["Adept", "Admired", "Aggressive", "Aggressor", "Agile", "Ambitious", "Assassin", "Avenger", "Beast", "Behemoth", "Bloodbringer", "Bloodhunter", "Bloodied", "Bold", "Brave", "Brilliant", "Brutal", "Butcher", "Champion", "Clever", "Corruptor", "Crafty", "Crooked", "Cunning", "Danger", "Dapper", "Defiant", "Diligent", "Doombringer", "Eliminator", "Enforcer", "Enormous", "Exalted", "Executioner", "Expert", "Fearless", "Glorious", "Grand", "Great", "Hunter", "Illustrious", "Immortal", "Incredible", "Infamous", "Inventor", "Killer", "Knowing", "Loyal", "Magnificent", "Marvelous", "Master", "Masterful", "Menace", "Merciless", "Mighty", "Paragon", "Powerful", "Prestigious", "Proud", "Razor", "Reckless", "Reliable", "Ruthless", "Slayer", "Sneaky", "Stark", "Stout", "Strong", "Terrific", "Terror", "Turbulent", "Undefeated", "Valiant", "Vengeful", "Victorious", "Vigilant", "Warlord", "Warmonger", "Warrior", "Wild", "Wonderful", "Wrathful", "Wretched", "Zealous"];
-var nm8 = ["B", "D", "G", "J", "K", "L", "N", "M", "S", "T", "V"];
-var nm9 = ["d", "g", "gg", "gr", "k", "kr", "kk", "l", "ll", "ng", "n", "nn", "r", "rl", "rr", "rk", "rn", "rg", "st", "sk", "th", "v"];
-
 function generator$doctor_who$sontarans() {
+	var nm1 = ["B", "Br", "D", "Dr", "Gr", "J", "K", "Kr", "L", "N", "M", "S", "Sk", "Sn", "St", "T", "Tr", "V", "Vr"];
+	var nm2 = ["a", "e", "i", "o", "u", "y", "aa", "ee"];
+	var nm3 = ["g", "gg", "gt", "gh", "k", "kt", "kk", "l", "ll", "nt", "nx", "r", "rl", "rr", "rk", "rn", "rg", "sk"];
+	var nm4 = ["a", "e", "i", "o", "u"];
+	var nm5 = ["d", "g", "gr", "j", "k", "kr", "l", "mt", "ng", "nt", "r", "rt", "rn", "st", "ts", "th", "v"];
+	var nm6 = ["", "", "g", "k", "l", "m", "n", "r", "x"];
+	var nm7 = ["Adept", "Admired", "Aggressive", "Aggressor", "Agile", "Ambitious", "Assassin", "Avenger", "Beast", "Behemoth", "Bloodbringer", "Bloodhunter", "Bloodied", "Bold", "Brave", "Brilliant", "Brutal", "Butcher", "Champion", "Clever", "Corruptor", "Crafty", "Crooked", "Cunning", "Danger", "Dapper", "Defiant", "Diligent", "Doombringer", "Eliminator", "Enforcer", "Enormous", "Exalted", "Executioner", "Expert", "Fearless", "Glorious", "Grand", "Great", "Hunter", "Illustrious", "Immortal", "Incredible", "Infamous", "Inventor", "Killer", "Knowing", "Loyal", "Magnificent", "Marvelous", "Master", "Masterful", "Menace", "Merciless", "Mighty", "Paragon", "Powerful", "Prestigious", "Proud", "Razor", "Reckless", "Reliable", "Ruthless", "Slayer", "Sneaky", "Stark", "Stout", "Strong", "Terrific", "Terror", "Turbulent", "Undefeated", "Valiant", "Vengeful", "Victorious", "Vigilant", "Warlord", "Warmonger", "Warrior", "Wild", "Wonderful", "Wrathful", "Wretched", "Zealous"];
+	var nm8 = ["B", "D", "G", "J", "K", "L", "N", "M", "S", "T", "V"];
+	var nm9 = ["d", "g", "gg", "gr", "k", "kr", "kk", "l", "ll", "ng", "n", "nn", "r", "rl", "rr", "rk", "rn", "rg", "st", "sk", "th", "v"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		rnd = Math.floor(Math.random() * nm1.length);

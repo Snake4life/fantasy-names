@@ -1,13 +1,13 @@
-var nm1 = ["", "", "", "", "b", "c", "d", "g", "j", "k", "l", "m", "n", "ph", "r", "t", "v", "w", "z"];
-var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ia", "oe", "io", "y"];
-var nm3 = ["c", "dr", "gr", "l", "ld", "lm", "ln", "m", "md", "mn", "n", "nd", "r", "rl", "rd", "s", "ss", "th", "thm", "z"];
-var nm4 = ["", "", "", "", "", "b", "c", "d", "k", "l", "ln", "lm", "n", "r", "s"];
-var nm5 = ["", "", "", "", "", "ch", "h", "j", "l", "m", "n", "ph", "r", "rh", "s", "sh", "w", "z"];
-var nm6 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "y"];
-var nm7 = ["dr", "l", "ll", "lm", "ln", "ld", "m", "mn", "n", "nm", "nn", "nr", "mr", "lgr", "n", "r", "rl", "rn", "rm", "rsh", "s", "sh", "ss", "th"];
-var nm8 = ["", "", "", "", "", "l", "n", "r", "s", "sh"];
-
 function generator$diablo$nephalems(type) {
+	var nm1 = ["", "", "", "", "b", "c", "d", "g", "j", "k", "l", "m", "n", "ph", "r", "t", "v", "w", "z"];
+	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ia", "oe", "io", "y"];
+	var nm3 = ["c", "dr", "gr", "l", "ld", "lm", "ln", "m", "md", "mn", "n", "nd", "r", "rl", "rd", "s", "ss", "th", "thm", "z"];
+	var nm4 = ["", "", "", "", "", "b", "c", "d", "k", "l", "ln", "lm", "n", "r", "s"];
+	var nm5 = ["", "", "", "", "", "ch", "h", "j", "l", "m", "n", "ph", "r", "rh", "s", "sh", "w", "z"];
+	var nm6 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "y"];
+	var nm7 = ["dr", "l", "ll", "lm", "ln", "ld", "m", "mn", "n", "nm", "nn", "nr", "mr", "lgr", "n", "r", "rl", "rn", "rm", "rsh", "s", "sh", "ss", "th"];
+	var nm8 = ["", "", "", "", "", "l", "n", "r", "s", "sh"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		if (type === 1) {

@@ -1,17 +1,17 @@
-var nm1 = ["", "", "", "b", "br", "c", "cr", "d", "dr", "g", "gr", "h", "hr", "k", "m", "n", "p", "t", "th", "ts", "z"];
-var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "a", "o", "o", "aa", "au", "oa", "ia", "ai", "uu"];
-var nm3 = ["br", "b", "d", "dh", "dr", "dz", "g", "gr", "gd", "gh", "k", "kh", "kt", "kd", "kr", "lgr", "ltr", "ldr", "lr", "lkr", "nd", "ng", "ngr", "ndr", "nv", "r", "rv", "rg", "rdr", "st", "sd", "str", "tr", "v", "zr", "zz", "zv", "zvr"];
-var nm4 = ["", "", "", "ch", "d", "g", "k", "l", "lm", "n", "r", "rg", "rm", "rv", "s", "sk", "t", "x", "zhg"];
-var nm5 = ["", "", "", "", "", "b", "br", "c", "d", "dr", "g", "h", "k", "m", "n", "r", "rz", "s", "sh", "str", "t", "v", "w", "z"];
-var nm6 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "a", "o", "o", "ay", "ou", "ai", "uo"];
-var nm7 = ["b", "br", "bl", "c", "cl", "cr", "d", "dl", "dr", "g", "gh", "gr", "gl", "hg", "hk", "hr", "jk", "l", "ljk", "ll", "ln", "lr", "lt", "m", "mr", "mg", "ml", "n", "ng", "nl", "nc", "r", "rg", "rl", "rd", "s", "sl", "sr", "t", "tt", "tr", "v", "vr", "z", "zr"];
-var nm8 = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "h", "n", "sh", "th", "x"];
-var nm9 = ["", "", "", "", "", "b", "c", "d", "g", "gn", "h", "j", "k", "m", "n", "r", "s", "sh", "t", "th", "v", "w", "z"];
-var nm10 = ["a", "e", "i", "o", "u"];
-var nm11 = ["b", "br", "d", "dr", "dk", "g", "gr", "gh", "gl", "k", "kr", "l", "lk", "lgr", "ln", "lr", "lr", "m", "mk", "n", "nr", "nk", "nd", "ndr", "ng", "rg", "rv", "rk", "r", "rr", "rsh", "shk", "st", "sk", "sr", "sv", "svr", "tsk", "tk", "tr", "v", "xl", "xn", "z", "zr", "zk"];
-var nm12 = ["", "", "", "", "", "ch", "d", "k", "ld", "lm", "m", "n", "r", "shky", "tsky", "v", "x", "z"];
-
 function generator$pathfinder$half_orcs(type) {
+	var nm1 = ["", "", "", "b", "br", "c", "cr", "d", "dr", "g", "gr", "h", "hr", "k", "m", "n", "p", "t", "th", "ts", "z"];
+	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "a", "o", "o", "aa", "au", "oa", "ia", "ai", "uu"];
+	var nm3 = ["br", "b", "d", "dh", "dr", "dz", "g", "gr", "gd", "gh", "k", "kh", "kt", "kd", "kr", "lgr", "ltr", "ldr", "lr", "lkr", "nd", "ng", "ngr", "ndr", "nv", "r", "rv", "rg", "rdr", "st", "sd", "str", "tr", "v", "zr", "zz", "zv", "zvr"];
+	var nm4 = ["", "", "", "ch", "d", "g", "k", "l", "lm", "n", "r", "rg", "rm", "rv", "s", "sk", "t", "x", "zhg"];
+	var nm5 = ["", "", "", "", "", "b", "br", "c", "d", "dr", "g", "h", "k", "m", "n", "r", "rz", "s", "sh", "str", "t", "v", "w", "z"];
+	var nm6 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "a", "o", "o", "ay", "ou", "ai", "uo"];
+	var nm7 = ["b", "br", "bl", "c", "cl", "cr", "d", "dl", "dr", "g", "gh", "gr", "gl", "hg", "hk", "hr", "jk", "l", "ljk", "ll", "ln", "lr", "lt", "m", "mr", "mg", "ml", "n", "ng", "nl", "nc", "r", "rg", "rl", "rd", "s", "sl", "sr", "t", "tt", "tr", "v", "vr", "z", "zr"];
+	var nm8 = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "h", "n", "sh", "th", "x"];
+	var nm9 = ["", "", "", "", "", "b", "c", "d", "g", "gn", "h", "j", "k", "m", "n", "r", "s", "sh", "t", "th", "v", "w", "z"];
+	var nm10 = ["a", "e", "i", "o", "u"];
+	var nm11 = ["b", "br", "d", "dr", "dk", "g", "gr", "gh", "gl", "k", "kr", "l", "lk", "lgr", "ln", "lr", "lr", "m", "mk", "n", "nr", "nk", "nd", "ndr", "ng", "rg", "rv", "rk", "r", "rr", "rsh", "shk", "st", "sk", "sr", "sv", "svr", "tsk", "tk", "tr", "v", "xl", "xn", "z", "zr", "zk"];
+	var nm12 = ["", "", "", "", "", "ch", "d", "k", "ld", "lm", "m", "n", "r", "shky", "tsky", "v", "x", "z"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		rnd10 = Math.floor(Math.random() * nm9.length);

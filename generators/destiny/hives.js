@@ -1,13 +1,13 @@
-var nm1 = ["b", "cr", "d", "g", "gr", "k", "kr", "m", "n", "r", "s", "tr", "z"];
-var nm2 = ["a", "e", "o", "u", "a", "e", "o", "u", "a", "e", "o", "u", "oo"];
-var nm3 = ["c", "cr", "gr", "k", "kr", "m", "n", "nd", "r", "rd", "rg", "rn", "rv", "rz", "t", "tr", "v", "z"];
-var nm4 = ["", "c", "k", "k", "n", "r", "x"];
-var nm5 = ["c", "ch", "h", "m", "n", "ph", "s", "sh", "th", "v", "z", "zh"];
-var nm6 = ["a", "e", "i", "e", "i", "o"];
-var nm7 = ["g", "lk", "lm", "ln", "m", "mn", "n", "nl", "nr", "rm", "sh", "sm", "sn", "sr", "st", "th", "tr", "v", "vn", "vr", "z", "zd", "zl", "zn"];
-var nm8 = ["", "", "", "", "h", "l", "s", "th"];
-
 function generator$destiny$hives(type) {
+	var nm1 = ["b", "cr", "d", "g", "gr", "k", "kr", "m", "n", "r", "s", "tr", "z"];
+	var nm2 = ["a", "e", "o", "u", "a", "e", "o", "u", "a", "e", "o", "u", "oo"];
+	var nm3 = ["c", "cr", "gr", "k", "kr", "m", "n", "nd", "r", "rd", "rg", "rn", "rv", "rz", "t", "tr", "v", "z"];
+	var nm4 = ["", "c", "k", "k", "n", "r", "x"];
+	var nm5 = ["c", "ch", "h", "m", "n", "ph", "s", "sh", "th", "v", "z", "zh"];
+	var nm6 = ["a", "e", "i", "e", "i", "o"];
+	var nm7 = ["g", "lk", "lm", "ln", "m", "mn", "n", "nl", "nr", "rm", "sh", "sm", "sn", "sr", "st", "th", "tr", "v", "vn", "vr", "z", "zd", "zl", "zn"];
+	var nm8 = ["", "", "", "", "h", "l", "s", "th"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		if (type === 1) {

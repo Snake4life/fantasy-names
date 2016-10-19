@@ -1,15 +1,15 @@
-var nm1 = ["c", "cz", "h", "j", "k", "s", "t", "th", "tr", "x", "xz", "z"];
-var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "uu", "ee"];
-var nm3 = ["b", "h", "j", "n", "nn", "m", "mr", "mn", "mm", "rr", "sh", "sz", "t", "z", "zz"];
-var nm4 = ["", "", "", "l", "n", "nn", "r", "s", "st", "t", "x"];
-var nm5 = ["", "", "b", "d", "f", "g", "gl", "k", "kr", "l", "m", "n", "s", "th", "x", "z"];
-var nm6 = ["d", "dv", "f", "ff", "ll", "m", "mm", "ml", "n", "nl", "nr", "r", "rr", "s", "ss", "st", "sn", "sm", "sv", "t", "v"];
-var nm7 = ["", "", "", "bs", "l", "m", "n", "s", "t"];
-var nm8 = ["br", "b", "d", "dr", "g", "gr", "k", "kr", "l", "m", "s", "t", "w", "x", "z"];
-var nm9 = ["d", "dv", "dr", "f", "g", "gr", "gn", "l", "ll", "m", "mm", "mr", "ms", "nr", "nn", "n", "ns", "s", "ss", "st", "sm", "sn", "sv", "rr", "t", "tr", "thr", "v", "vr", "z"];
-var nm10 = ["c", "d", "j", "l", "m", "n", "r", "ss", "t", "x"];
-
 function generator$star_wars$falleens(type) {
+	var nm1 = ["c", "cz", "h", "j", "k", "s", "t", "th", "tr", "x", "xz", "z"];
+	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "uu", "ee"];
+	var nm3 = ["b", "h", "j", "n", "nn", "m", "mr", "mn", "mm", "rr", "sh", "sz", "t", "z", "zz"];
+	var nm4 = ["", "", "", "l", "n", "nn", "r", "s", "st", "t", "x"];
+	var nm5 = ["", "", "b", "d", "f", "g", "gl", "k", "kr", "l", "m", "n", "s", "th", "x", "z"];
+	var nm6 = ["d", "dv", "f", "ff", "ll", "m", "mm", "ml", "n", "nl", "nr", "r", "rr", "s", "ss", "st", "sn", "sm", "sv", "t", "v"];
+	var nm7 = ["", "", "", "bs", "l", "m", "n", "s", "t"];
+	var nm8 = ["br", "b", "d", "dr", "g", "gr", "k", "kr", "l", "m", "s", "t", "w", "x", "z"];
+	var nm9 = ["d", "dv", "dr", "f", "g", "gr", "gn", "l", "ll", "m", "mm", "mr", "ms", "nr", "nn", "n", "ns", "s", "ss", "st", "sm", "sn", "sv", "rr", "t", "tr", "thr", "v", "vr", "z"];
+	var nm10 = ["c", "d", "j", "l", "m", "n", "r", "ss", "t", "x"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		rnd6 = Math.floor(Math.random() * nm8.length);

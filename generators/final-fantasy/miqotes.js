@@ -1,16 +1,16 @@
-var nm1 = ["A'", "B'", "C'", "D'", "E'", "F'", "G'", "H'", "I'", "J'", "K'", "L'", "M'", "N'", "O'", "P'", "Q'", "R'", "S'", "T'", "U'", "V'", "W'", "X'", "Y'", "Z'"];
-var nm2 = ["b", "c", "d", "f", "g", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z"];
-var nm3 = ["a", "e", "o", "i", "u"];
-var nm4 = ["", "", "", "a", "e", "o", "i", "u"];
-var nm5 = ["", "h"];
-var nm6 = ["b", "c", "d", "f", "g", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z", "b", "c", "d", "f", "g", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z", "bb", "cc", "dd", "ff", "gg", "kk", "ll", "mm", "nn", "pp", "rr", "ss", "tt", "ww", "zz", "cb", "gb", "lb", "mb", "nb", "rb", "bd", "cd", "gd", "ld", "md", "nd", "sd", "rd", "bf", "df", "kf", "lf", "mf", "nf", "pf", "rf", "sf", "tf", "bg", "dg", "lg", "mg", "ng", "rg", "sg", "ck", "lk", "mk", "nk", "pk", "rk", "sk", "tk", "bl", "dl", "fl", "gl", "kl", "ml", "nl", "pl", "rl", "sl", "tl", "bm", "dm", "fm", "gm", "km", "lm", "nm", "pm", "rm", "sm", "tm", "bn", "dn", "fn", "gn", "kn", "mn", "ln", "pn", "rn", "sn", "tn", "br", "cr", "dr", "fr", "gr", "kr", "lr", "mr", "nr", "pr", "sr", "tr", "vr", "wr", "zr", "bs", "cs", "ds", "fs", "gs", "ks", "ls", "ms", "ns", "ps", "rs", "ts", "bt", "ct", "kt", "lt", "mt", "nt", "pt", "rt", "st", "by", "cy", "dy", "fy", "gy", "ky", "ly", "my", "ny", "py", "ry", "sy", "ty"];
-var nm7 = ["ei", "au", "aa", "ee", "oo", "aia", "a", "e", "o", "i", "u", "a", "e", "o", "i", "u", "a", "e", "o", "i", "u", "a", "e", "o", "i", "u", "a", "e", "o", "i", "u"];
-var nm8 = ["", "", "", "", "", "b", "c", "d", "f", "g", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z"];
-var nm9 = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "b", "c", "d", "f", "g", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z"];
-var nm10 = ["", "a", "e", "o", "i", "u"];
-var nm11 = ["'a", "'to", "'li", "'sae", "'ra", "'ir", "'wo", "'ya", "'zi", "'tan"];
-
 function generator$final_fantasy$miqotes(type) {
+	var nm1 = ["A'", "B'", "C'", "D'", "E'", "F'", "G'", "H'", "I'", "J'", "K'", "L'", "M'", "N'", "O'", "P'", "Q'", "R'", "S'", "T'", "U'", "V'", "W'", "X'", "Y'", "Z'"];
+	var nm2 = ["b", "c", "d", "f", "g", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z"];
+	var nm3 = ["a", "e", "o", "i", "u"];
+	var nm4 = ["", "", "", "a", "e", "o", "i", "u"];
+	var nm5 = ["", "h"];
+	var nm6 = ["b", "c", "d", "f", "g", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z", "b", "c", "d", "f", "g", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z", "bb", "cc", "dd", "ff", "gg", "kk", "ll", "mm", "nn", "pp", "rr", "ss", "tt", "ww", "zz", "cb", "gb", "lb", "mb", "nb", "rb", "bd", "cd", "gd", "ld", "md", "nd", "sd", "rd", "bf", "df", "kf", "lf", "mf", "nf", "pf", "rf", "sf", "tf", "bg", "dg", "lg", "mg", "ng", "rg", "sg", "ck", "lk", "mk", "nk", "pk", "rk", "sk", "tk", "bl", "dl", "fl", "gl", "kl", "ml", "nl", "pl", "rl", "sl", "tl", "bm", "dm", "fm", "gm", "km", "lm", "nm", "pm", "rm", "sm", "tm", "bn", "dn", "fn", "gn", "kn", "mn", "ln", "pn", "rn", "sn", "tn", "br", "cr", "dr", "fr", "gr", "kr", "lr", "mr", "nr", "pr", "sr", "tr", "vr", "wr", "zr", "bs", "cs", "ds", "fs", "gs", "ks", "ls", "ms", "ns", "ps", "rs", "ts", "bt", "ct", "kt", "lt", "mt", "nt", "pt", "rt", "st", "by", "cy", "dy", "fy", "gy", "ky", "ly", "my", "ny", "py", "ry", "sy", "ty"];
+	var nm7 = ["ei", "au", "aa", "ee", "oo", "aia", "a", "e", "o", "i", "u", "a", "e", "o", "i", "u", "a", "e", "o", "i", "u", "a", "e", "o", "i", "u", "a", "e", "o", "i", "u"];
+	var nm8 = ["", "", "", "", "", "b", "c", "d", "f", "g", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z"];
+	var nm9 = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "b", "c", "d", "f", "g", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z"];
+	var nm10 = ["", "a", "e", "o", "i", "u"];
+	var nm11 = ["'a", "'to", "'li", "'sae", "'ra", "'ir", "'wo", "'ya", "'zi", "'tan"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		if (type === 1) {

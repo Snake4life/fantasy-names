@@ -1,12 +1,12 @@
-var nm1 = ["b", "br", "d", "dr", "dw", "f", "fl", "fr", "g", "gl", "gr", "k", "kh", "kr", "l", "m", "mh", "n", "t", "th", "thr"];
-var nm2 = ["a", "e", "i", "o", "u"];
-var nm3 = ["b", "f", "fr", "l", "lb", "lr", "lv", "m", "mb", "ml", "mr", "n", "nd", "nr", "r", "rb", "rl", "rv", "s", "sr"];
-var nm4 = ["k", "m", "n", "r"];
-var nm5 = ["a", "ai", "e", "i", "o", "oi", "u"];
-var nm6 = ["b", "d", "f", "g", "k", "l", "m", "n", "t"];
-var nm7 = ["a", "e", "i", "o", "u", "", "", "", ""];
-
 function generator$lord_of_the_rings$dwarfs() {
+	var nm1 = ["b", "br", "d", "dr", "dw", "f", "fl", "fr", "g", "gl", "gr", "k", "kh", "kr", "l", "m", "mh", "n", "t", "th", "thr"];
+	var nm2 = ["a", "e", "i", "o", "u"];
+	var nm3 = ["b", "f", "fr", "l", "lb", "lr", "lv", "m", "mb", "ml", "mr", "n", "nd", "nr", "r", "rb", "rl", "rv", "s", "sr"];
+	var nm4 = ["k", "m", "n", "r"];
+	var nm5 = ["a", "ai", "e", "i", "o", "oi", "u"];
+	var nm6 = ["b", "d", "f", "g", "k", "l", "m", "n", "t"];
+	var nm7 = ["a", "e", "i", "o", "u", "", "", "", ""];
+
 
 	i = Math.floor(Math.random() * 10); {
 		if (i < 5) {

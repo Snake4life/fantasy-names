@@ -1,24 +1,24 @@
-var nm0 = ["", "", "", "", "", "", "", "", "", "a", "o", "u"];
-var nm1 = ["b", "c", "d", "h", "k", "m", "r", "s", "t", "v", "z"];
-var nm2 = ["a", "o", "u"];
-var nm3 = ["b", "br", "d", "k", "kr", "ky", "l", "n", "nz", "r", "rh", "s", "sht", "t", "vr", "z"];
-var nm4 = ["a", "aa", "ee", "i", "o", "y"];
-var nm5 = ["", "", "", "", "", "", "", "hd", "k", "n", "m", "r", "s", "sh"];
-
-var nm6 = ["", "", "", "", "a", "a", "o", "a"];
-var nm7 = ["b", "c", "d", "h", "k", "l", "m", "n", "r", "s", "sh", "z"];
-var nm8 = ["a", "aa", "e", "o"];
-var nm9 = ["d", "hn", "hl", "hs", "k", "l", "m", "mn", "n", "r", "rl", "rsh", "rn", "s", "ss", "sh", "shl", "t", "th", "tt"];
-var nm10 = ["a", "aa", "a", "a", "o"];
-var nm11 = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "n", "m", "h", "s", "sh"];
-
-var nm12 = ["b", "d", "h", "k", "l", "m", "n", "ph", "r", "s", "t", "v", "z"];
-var nm13 = ["a", "y", "aa", "i", "e"];
-var nm14 = ["br", "d", "k", "kr", "l", "m", "n", "r", "rn", "rl", "s", "ss", "sh", "shr", "vr", "w", "z"];
-var nm15 = ["a", "aa", "e", "u", "y", "a", "e", "u", "i", "o", "o", "ii", "ua", "ee"];
-var nm16 = ["", "", "", "", "ks", "l", "n", "m", "r", "s", "sh"];
-
 function generator$star_wars_the_old_republic$togrutas(type) {
+	var nm0 = ["", "", "", "", "", "", "", "", "", "a", "o", "u"];
+	var nm1 = ["b", "c", "d", "h", "k", "m", "r", "s", "t", "v", "z"];
+	var nm2 = ["a", "o", "u"];
+	var nm3 = ["b", "br", "d", "k", "kr", "ky", "l", "n", "nz", "r", "rh", "s", "sht", "t", "vr", "z"];
+	var nm4 = ["a", "aa", "ee", "i", "o", "y"];
+	var nm5 = ["", "", "", "", "", "", "", "hd", "k", "n", "m", "r", "s", "sh"];
+
+	var nm6 = ["", "", "", "", "a", "a", "o", "a"];
+	var nm7 = ["b", "c", "d", "h", "k", "l", "m", "n", "r", "s", "sh", "z"];
+	var nm8 = ["a", "aa", "e", "o"];
+	var nm9 = ["d", "hn", "hl", "hs", "k", "l", "m", "mn", "n", "r", "rl", "rsh", "rn", "s", "ss", "sh", "shl", "t", "th", "tt"];
+	var nm10 = ["a", "aa", "a", "a", "o"];
+	var nm11 = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "n", "m", "h", "s", "sh"];
+
+	var nm12 = ["b", "d", "h", "k", "l", "m", "n", "ph", "r", "s", "t", "v", "z"];
+	var nm13 = ["a", "y", "aa", "i", "e"];
+	var nm14 = ["br", "d", "k", "kr", "l", "m", "n", "r", "rn", "rl", "s", "ss", "sh", "shr", "vr", "w", "z"];
+	var nm15 = ["a", "aa", "e", "u", "y", "a", "e", "u", "i", "o", "o", "ii", "ua", "ee"];
+	var nm16 = ["", "", "", "", "ks", "l", "n", "m", "r", "s", "sh"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		if (i < 5) {

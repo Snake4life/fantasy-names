@@ -1,9 +1,9 @@
-var nm1 = ["B", "D", "G", "K", "M", "N", "R", "T"];
-var nm2 = ["a", "e", "i", "o", "u", "a", "o"];
-var nm3 = ["b", "br", "bl", "d", "dr", "dl", "g", "gr", "gl", "gg", "g", "gr", "gl", "gg", "g", "gr", "gl", "gg", "g", "gr", "gl", "gg", "l", "lg", "lb", "ld", "m", "mr", "md", "mb", "n", "nd", "nl", "nb", "ng", "r", "rb", "rg", "rd", "rk", "rm", "rtr", "t", "z", "kb", "kl", "km", "kn", "kd", "b", "d", "g", "k", "l", "m", "n", "r", "t", "z", "b", "d", "g", "k", "l", "m", "n", "r", "t", "z", "b", "d", "g", "k", "l", "m", "n", "r", "t", "z", "b", "d", "g", "k", "l", "m", "n", "r", "t", "z", "b", "d", "g", "k", "l", "m", "n", "r", "t", "z"];
-var nm4 = ["", "", "", "", "", "", "", "", "", "", "", "", "k", "g", "ck", "gs", "m", "n", "s"];
-
 function generator$legend_of_zelda$gorons() {
+	var nm1 = ["B", "D", "G", "K", "M", "N", "R", "T"];
+	var nm2 = ["a", "e", "i", "o", "u", "a", "o"];
+	var nm3 = ["b", "br", "bl", "d", "dr", "dl", "g", "gr", "gl", "gg", "g", "gr", "gl", "gg", "g", "gr", "gl", "gg", "g", "gr", "gl", "gg", "l", "lg", "lb", "ld", "m", "mr", "md", "mb", "n", "nd", "nl", "nb", "ng", "r", "rb", "rg", "rd", "rk", "rm", "rtr", "t", "z", "kb", "kl", "km", "kn", "kd", "b", "d", "g", "k", "l", "m", "n", "r", "t", "z", "b", "d", "g", "k", "l", "m", "n", "r", "t", "z", "b", "d", "g", "k", "l", "m", "n", "r", "t", "z", "b", "d", "g", "k", "l", "m", "n", "r", "t", "z", "b", "d", "g", "k", "l", "m", "n", "r", "t", "z"];
+	var nm4 = ["", "", "", "", "", "", "", "", "", "", "", "", "k", "g", "ck", "gs", "m", "n", "s"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		rnd = Math.floor(Math.random() * nm1.length);

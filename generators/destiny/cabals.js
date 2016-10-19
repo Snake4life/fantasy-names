@@ -1,11 +1,11 @@
-var nm1 = ["d", "dh", "g", "gh", "k", "kh", "m", "n", "sh", "t", "th", "tl", "v", "z", "zh"];
-var nm2 = ["a'au", "au'ua", "o'ou", "u'u", "u'ua", "u'uo", "ua'au"];
-var nm2b = ["a", "o", "u"];
-var nm3 = ["d", "g", "l", "m", "n", "r", "v", "z"];
-var nm4 = ["c", "ch", "g", "l", "m", "n", "r", "v", "z"];
-var nm5 = ["c", "d", "k", "l", "lk", "ll", "m", "n", "rc", "rd", "rg", "rk", "rn"];
-
 function generator$destiny$cabals() {
+	var nm1 = ["d", "dh", "g", "gh", "k", "kh", "m", "n", "sh", "t", "th", "tl", "v", "z", "zh"];
+	var nm2 = ["a'au", "au'ua", "o'ou", "u'u", "u'ua", "u'uo", "ua'au"];
+	var nm2b = ["a", "o", "u"];
+	var nm3 = ["d", "g", "l", "m", "n", "r", "v", "z"];
+	var nm4 = ["c", "ch", "g", "l", "m", "n", "r", "v", "z"];
+	var nm5 = ["c", "d", "k", "l", "lk", "ll", "m", "n", "rc", "rd", "rg", "rk", "rn"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		rnd = Math.floor(Math.random() * nm1.length);

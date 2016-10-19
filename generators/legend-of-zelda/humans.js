@@ -1,16 +1,16 @@
-var nm1 = ["", "", "", "", "", "", "a", "e", "i", "o", "u", "i", "a", "e"];
-var nm2 = ["b", "c", "d", "j", "k", "l", "m", "n", "r", "t", "z"];
-var nm3 = ["a", "i", "o", "u", "a", "o"];
-var nm4 = ["b", "g", "k", "l", "m", "ng", "r", "rr", "ss", "t", "z"];
-var nm5 = ["", "", "", "", "", "", "h", "k", "l", "ll", "lph", "m", "n", "nk", "s"];
-
-var nm6 = ["a", "e", "i", "o"];
-var nm7 = ["c", "f", "h", "m", "n", "ph", "r", "s", "sh", "th", "t"];
-var nm8 = ["f", "l", "m", "mb", "n", "p", "ph", "tr", "ld", "r", "s", "sh", "v"];
-var nm9 = ["a", "e", "i", "o", "ia", "ei", "ie", "ea", "a", "e", "i"];
-var nm10 = ["", "", "", "", "", "", "l", "m", "n", "s", "sh", "th"];
-
 function generator$legend_of_zelda$humans(type) {
+	var nm1 = ["", "", "", "", "", "", "a", "e", "i", "o", "u", "i", "a", "e"];
+	var nm2 = ["b", "c", "d", "j", "k", "l", "m", "n", "r", "t", "z"];
+	var nm3 = ["a", "i", "o", "u", "a", "o"];
+	var nm4 = ["b", "g", "k", "l", "m", "ng", "r", "rr", "ss", "t", "z"];
+	var nm5 = ["", "", "", "", "", "", "h", "k", "l", "ll", "lph", "m", "n", "nk", "s"];
+
+	var nm6 = ["a", "e", "i", "o"];
+	var nm7 = ["c", "f", "h", "m", "n", "ph", "r", "s", "sh", "th", "t"];
+	var nm8 = ["f", "l", "m", "mb", "n", "p", "ph", "tr", "ld", "r", "s", "sh", "v"];
+	var nm9 = ["a", "e", "i", "o", "ia", "ei", "ie", "ea", "a", "e", "i"];
+	var nm10 = ["", "", "", "", "", "", "l", "m", "n", "s", "sh", "th"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		if (type === 1) {

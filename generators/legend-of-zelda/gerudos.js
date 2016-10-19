@@ -1,14 +1,14 @@
-var nm1 = ["B", "C", "D", "G", "H", "K", "M", "R", "T"];
-var nm2 = ["a", "e", "i", "o", "u"];
-var nm3 = ["b", "d", "f", "g", "l", "m", "n", "r", "t", "v", "z", "b", "d", "f", "g", "l", "m", "n", "r", "t", "v", "z", "b", "d", "f", "g", "l", "m", "n", "r", "t", "v", "z", "b", "d", "f", "g", "l", "m", "n", "r", "t", "v", "z", "b", "d", "f", "g", "l", "m", "n", "r", "t", "v", "z", "br", "bl", "dr", "dl", "fl", "fn", "fm", "fr", "gr", "gn", "gm", "lb", "ld", "lg", "lm", "ln", "lr", "lt", "lz", "mb", "md", "ml", "mn", "mr", "nb", "nd", "ng", "nl", "nm", "nr", "nz", "rb", "rd", "rg", "rl", "rm", "rn", "rt", "rs", "tl", "tm", "tn", "tr", "vl", "vm", "zl"];
-var nm4 = ["g", "l", "lm", "ln", "m", "n", "r", "rf", "rg", "rn", "rm", "rt", "ng"];
-var nm5 = ["", "", "", "", "k", "n", "m", "l", "t", "s", "f", "g", "h", "r"];
-var nm6 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ei", "ea", "eo", "oa", "ou", "oo", "ae", "ai", "au"];
-var nm7 = ["v", "m", "k", "b", "r", "f", "g", "l", "n", "s", "t"];
-var nm8 = ["m", "k", "r", "f", "g", "l", "n", "s", "t"];
-var nm9 = ["a", "e", "i", "o", "u", "", "", "", ""];
-
 function generator$legend_of_zelda$gerudos(type) {
+	var nm1 = ["B", "C", "D", "G", "H", "K", "M", "R", "T"];
+	var nm2 = ["a", "e", "i", "o", "u"];
+	var nm3 = ["b", "d", "f", "g", "l", "m", "n", "r", "t", "v", "z", "b", "d", "f", "g", "l", "m", "n", "r", "t", "v", "z", "b", "d", "f", "g", "l", "m", "n", "r", "t", "v", "z", "b", "d", "f", "g", "l", "m", "n", "r", "t", "v", "z", "b", "d", "f", "g", "l", "m", "n", "r", "t", "v", "z", "br", "bl", "dr", "dl", "fl", "fn", "fm", "fr", "gr", "gn", "gm", "lb", "ld", "lg", "lm", "ln", "lr", "lt", "lz", "mb", "md", "ml", "mn", "mr", "nb", "nd", "ng", "nl", "nm", "nr", "nz", "rb", "rd", "rg", "rl", "rm", "rn", "rt", "rs", "tl", "tm", "tn", "tr", "vl", "vm", "zl"];
+	var nm4 = ["g", "l", "lm", "ln", "m", "n", "r", "rf", "rg", "rn", "rm", "rt", "ng"];
+	var nm5 = ["", "", "", "", "k", "n", "m", "l", "t", "s", "f", "g", "h", "r"];
+	var nm6 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ei", "ea", "eo", "oa", "ou", "oo", "ae", "ai", "au"];
+	var nm7 = ["v", "m", "k", "b", "r", "f", "g", "l", "n", "s", "t"];
+	var nm8 = ["m", "k", "r", "f", "g", "l", "n", "s", "t"];
+	var nm9 = ["a", "e", "i", "o", "u", "", "", "", ""];
+
 
 	i = Math.floor(Math.random() * 10); {
 		if (type === 1) {

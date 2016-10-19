@@ -1,21 +1,21 @@
-var nm1 = ["", "", "a", "u", "y", "i"];
-var nm2 = ["c", "cr", "h", "kh", "m", "n", "r", "s", "t", "x"];
-var nm3 = ["a", "i", "o", "y", "u"];
-var nm4 = ["c", "d", "k", "m", "n", "nd", "r", "rb", "s"];
-var nm5 = ["", "", "", "", "", "c", "h", "hr", "k", "m", "n", "rr", "x"];
-
-var nm6 = ["c", "ch", "d", "j", "m", "n", "r", "s", "th", "x"];
-var nm7 = ["h", "l", "lv", "m", "n", "r", "s", "th", "v", "sh", "w"];
-var nm8 = ["r", "h", "s", "n", "hr", "x", "sh", "z"];
-var nm9 = ["", "", "", "a", "i", "y"];
-
-var nm10 = ["j", "k", "l", "m", "n", "p", "r", "s", "t"];
-var nm11 = ["i", "o", "a", "u"];
-var nm12 = ["d", "l", "m", "n", "s", "sh", "rg", "z"];
-var nm13 = ["", "", "", "g", "k", "l", "m", "n", "r", "s", "t"];
-var nm14 = ["", "", "", "h"];
-
 function generator$star_wars_the_old_republic$cathars(type) {
+	var nm1 = ["", "", "a", "u", "y", "i"];
+	var nm2 = ["c", "cr", "h", "kh", "m", "n", "r", "s", "t", "x"];
+	var nm3 = ["a", "i", "o", "y", "u"];
+	var nm4 = ["c", "d", "k", "m", "n", "nd", "r", "rb", "s"];
+	var nm5 = ["", "", "", "", "", "c", "h", "hr", "k", "m", "n", "rr", "x"];
+
+	var nm6 = ["c", "ch", "d", "j", "m", "n", "r", "s", "th", "x"];
+	var nm7 = ["h", "l", "lv", "m", "n", "r", "s", "th", "v", "sh", "w"];
+	var nm8 = ["r", "h", "s", "n", "hr", "x", "sh", "z"];
+	var nm9 = ["", "", "", "a", "i", "y"];
+
+	var nm10 = ["j", "k", "l", "m", "n", "p", "r", "s", "t"];
+	var nm11 = ["i", "o", "a", "u"];
+	var nm12 = ["d", "l", "m", "n", "s", "sh", "rg", "z"];
+	var nm13 = ["", "", "", "g", "k", "l", "m", "n", "r", "s", "t"];
+	var nm14 = ["", "", "", "h"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		if (i < 5) {

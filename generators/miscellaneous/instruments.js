@@ -1,14 +1,14 @@
-var names1 = ["a", "e", "i", "o", "u", "", "", "", "", "", "", "", "", "", ""];
-var names2 = ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z", "br", "cr", "gr", "pr", "tr", "ch", "bl", "cl", "fl", "gl", "kl", "pl", "sl", "vl", "st", "str"];
-var names3 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ia", "ie", "io", "ai", "ea", "ei", "eo"];
-var names4 = ["b", "d", "f", "g", "h", "k", "l", "m", "n", "p", "q", "r", "s", "t", "w", "x", "y", "ld", "lf", "lk", "lm", "ln", "lp", "ls", "lt", "ck", "cs", "ct", "ft", "mn", "ms", "ng", "ns", "ps", "rd", "rg", "rk", "rs", "rt", "sk", "ss", "ll", "st", "sh"];
-var names5 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ia", "ie", "io", "ai", "ea", "ei", "eo"];
-var names6 = ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z", "bb", "cc", "dd", "ff", "gg", "kk", "ll", "mm", "nn", "pp", "rr", "ss", "tt", "zz", "br", "cr", "gr", "pr", "tr", "ch", "bl", "cl", "fl", "gl", "kl", "pl", "sl", "vl", "st", "str"];
-var names7 = ["a", "e", "i", "o", "u", "ia", "io", "ea", "ei", "eo"];
-var names8 = [" Accordion", " Bass", " Bow", " Clarinet", " Drum", " Drums", " Flute", " Guitar", " Harmonica", " Horn", " Organ", " Pipe", " Saxophone", " Trombone", " Trumpet", " Tuba", " Violin", " Whistle", "horn", "phone", "pipe", "horn", "phone", "phone", "phone", "phone", "pipe"];
-var names9 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ia", "io", "ai", "ea", "eo", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
-
 function generator$miscellaneous$instruments() {
+	var names1 = ["a", "e", "i", "o", "u", "", "", "", "", "", "", "", "", "", ""];
+	var names2 = ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z", "br", "cr", "gr", "pr", "tr", "ch", "bl", "cl", "fl", "gl", "kl", "pl", "sl", "vl", "st", "str"];
+	var names3 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ia", "ie", "io", "ai", "ea", "ei", "eo"];
+	var names4 = ["b", "d", "f", "g", "h", "k", "l", "m", "n", "p", "q", "r", "s", "t", "w", "x", "y", "ld", "lf", "lk", "lm", "ln", "lp", "ls", "lt", "ck", "cs", "ct", "ft", "mn", "ms", "ng", "ns", "ps", "rd", "rg", "rk", "rs", "rt", "sk", "ss", "ll", "st", "sh"];
+	var names5 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ia", "ie", "io", "ai", "ea", "ei", "eo"];
+	var names6 = ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z", "bb", "cc", "dd", "ff", "gg", "kk", "ll", "mm", "nn", "pp", "rr", "ss", "tt", "zz", "br", "cr", "gr", "pr", "tr", "ch", "bl", "cl", "fl", "gl", "kl", "pl", "sl", "vl", "st", "str"];
+	var names7 = ["a", "e", "i", "o", "u", "ia", "io", "ea", "ei", "eo"];
+	var names8 = [" Accordion", " Bass", " Bow", " Clarinet", " Drum", " Drums", " Flute", " Guitar", " Harmonica", " Horn", " Organ", " Pipe", " Saxophone", " Trombone", " Trumpet", " Tuba", " Violin", " Whistle", "horn", "phone", "pipe", "horn", "phone", "phone", "phone", "phone", "pipe"];
+	var names9 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ia", "io", "ai", "ea", "eo", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
+
 
 	i = Math.floor(Math.random() * 10); {
 		if (i < 3) {

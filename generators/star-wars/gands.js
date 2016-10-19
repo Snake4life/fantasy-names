@@ -1,12 +1,12 @@
-var nm1 = ["", "", "c", "c'n", "d", "d'k", "k", "l", "n", "r'k", "r", "s", "s'z", "t", "t'r", "v", "v'l", "z"];
-var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "y", "y", "aa", "oo", "uu", "ee", "ay", "ai", "ey", "ya", "yu", "yi"];
-var nm3 = ["b", "ck", "d", "dn", "ff", "fn", "fl", "g", "gn", "gl", "k", "kk", "kn", "kl", "l", "ll", "ln", "ls", "ld", "nl", "nf", "q", "r", "rn", "rl", "s", "ss", "sl", "ssl", "t", "z", "zl"];
-var nm4 = ["", "d", "k", "l", "n", "r", "sh", "ss", "x"];
-var nm5 = ["cr", "cn", "d", "dr", "k", "kr", "l", "n", "p", "pr", "pn", "q", "qr", "sr", "shr", "tr", "v", "vr", "z"];
-var nm6 = ["ck", "cl", "d", "ff", "fr", "gg", "gl", "k", "kk", "kr", "q", "ql", "qr", "rr", "rn", "rl", "sl", "th", "t", "tr", "z", "zz", "zl"];
-var nm7 = ["", "", "", "", "", "", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "y", "aa", "oo", "uu", "ee", "ay", "ai", "ey", "ya", "yu", "yi"];
-
 function generator$star_wars$gands() {
+	var nm1 = ["", "", "c", "c'n", "d", "d'k", "k", "l", "n", "r'k", "r", "s", "s'z", "t", "t'r", "v", "v'l", "z"];
+	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "y", "y", "aa", "oo", "uu", "ee", "ay", "ai", "ey", "ya", "yu", "yi"];
+	var nm3 = ["b", "ck", "d", "dn", "ff", "fn", "fl", "g", "gn", "gl", "k", "kk", "kn", "kl", "l", "ll", "ln", "ls", "ld", "nl", "nf", "q", "r", "rn", "rl", "s", "ss", "sl", "ssl", "t", "z", "zl"];
+	var nm4 = ["", "d", "k", "l", "n", "r", "sh", "ss", "x"];
+	var nm5 = ["cr", "cn", "d", "dr", "k", "kr", "l", "n", "p", "pr", "pn", "q", "qr", "sr", "shr", "tr", "v", "vr", "z"];
+	var nm6 = ["ck", "cl", "d", "ff", "fr", "gg", "gl", "k", "kk", "kr", "q", "ql", "qr", "rr", "rn", "rl", "sl", "th", "t", "tr", "z", "zz", "zl"];
+	var nm7 = ["", "", "", "", "", "", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "y", "aa", "oo", "uu", "ee", "ay", "ai", "ey", "ya", "yu", "yi"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		rnd6 = Math.floor(Math.random() * nm5.length);

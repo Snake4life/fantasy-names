@@ -1,14 +1,14 @@
-var nm1 = ["", "", "", "", "", "h", "j", "k", "m", "n", "p", "t", "v", "z"];
-var nm2 = ["a", "i", "o", "e"];
-var nm3 = ["j", "k", "l", "p", "r", "t", "v"];
-var nm4 = ["", "", "", "", "", "m", "n", "s", "r"];
-
-var nm5 = ["", "", "", "", "l", "n", "r", "m", "h", "f"];
-var nm6 = ["a", "u", "o", "e"];
-var nm7 = ["r", "t", "l", "n", "r", "t", "l", "ph", "v", "m"];
-var nm8 = ["", "", "", "", "", "", "n", "h"];
-
 function generator$legend_of_zelda$zoras(type) {
+	var nm1 = ["", "", "", "", "", "h", "j", "k", "m", "n", "p", "t", "v", "z"];
+	var nm2 = ["a", "i", "o", "e"];
+	var nm3 = ["j", "k", "l", "p", "r", "t", "v"];
+	var nm4 = ["", "", "", "", "", "m", "n", "s", "r"];
+
+	var nm5 = ["", "", "", "", "l", "n", "r", "m", "h", "f"];
+	var nm6 = ["a", "u", "o", "e"];
+	var nm7 = ["r", "t", "l", "n", "r", "t", "l", "ph", "v", "m"];
+	var nm8 = ["", "", "", "", "", "", "n", "h"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		if (type === 1) {

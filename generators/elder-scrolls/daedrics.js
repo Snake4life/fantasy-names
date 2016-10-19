@@ -1,16 +1,16 @@
-var nm1 = ["b", "br", "c", "cr", "ch", "d", "dr", "g", "gr", "j", "k", "kr", "kn", "km", "p", "pr", "q", "qr", "r", "st", "str", "t", "tr", "v", "vr", "w", "wr", "x", "z", "zr", "", "", "", "", ""];
-var nm2 = ["a", "e", "i", "o", "u", "y", "au", "ou", "ei", "uy", "oe", "ua", "ue", "uo", "a", "e", "i", "o", "u", "y"];
-var nm3 = ["b", "c", "d", "g", "j", "k", "l", "m", "p", "q", "r", "s", "t", "v", "w", "x", "z", "br", "cr", "dr", "gr", "kr", "km", "pr", "qr", "st", "tr", "xx", "g", "q'", "k'", "rr", "r'", "t'", "tt", "vv", "v'", "x'", "z'", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
-var nm4 = ["a", "e", "i", "o", "u", "", "", "", "", "", ""];
-var nm5 = ["ag", "ah", "al", "ala", "alag", "ath", "bal", "cath", "cius", "cus", "dea", "dia", "hala", "icus", "ina", "ine", "ira", "ite", "lag", "maeus", "mina", "nal", "nes", "oth", "rath", "roth", "unes", "ura", "us", "vus", "yite", ];
-var nm6 = ["b", "bl", "c", "cl", "ch", "d", "f", "fr", "fl", "g", "gl", "gn", "h", "kl", "kn", "m", "n", "p", "pl", "ph", "q", "ql", "s", "st", "sl", "t", "v", "vl", "w", "z", "", "", "", "", ""];
-var nm7 = ["a", "e", "i", "o", "u", "y", "ae", "ea", "eo", "oe", "ie", "ue", "ua", "a", "e", "i", "o", "u", "y"];
-var nm8 = ["b", "c", "f", "g", "h", "k", "l", "m", "n", "p", "q", "r", "s", "w", "bb", "bl", "ff", "fl", "gl", "gn", "hh", "hs", "hl", "hn", "hm", "ks", "ll", "lh", "kh", "bh", "ch", "dh", "lm", "ln", "lf", "mm", "mn", "ms", "nn", "ns", "p", "ph", "ps", "rf", "ss", "st", "sh", "th", "ts", "s'", "l'", "n'", "m'", "f'", "h'"];
-var nm9 = ["a", "e", "i", "o", "u", "y", "", "", "", "", "", ""];
-var nm10 = ["ag", "ah", "al", "ala", "alag", "ath", "bal", "cath", "cius", "cus", "dea", "dia", "hala", "icus", "ina", "ine", "ira", "ite", "lag", "maeus", "mina", "nal", "nes", "oth", "rath", "roth", "unes", "ura", "us", "vus", "yite"];
-var nm11 = ["Insomnia", "Lunacy", "Luna", "Mania", "Phobia", "Luna", "Solar", "Dementia", "Hysteria", "Delirium", "Pedigree", "Bane", "Anathema", "Grace", "Hope", "Malison", "Misery", "Blight", "Poison", "Venom", "Calamity", "Malificent", "Sinister", "Grim", "Gloom", "Dire", "Malign", "Malefic", "Joy", "Nova", "Misty", "Dusk", "Dawn", "Twilight", "Rogue", "Ominous", "Vile", "Nefarious", "Melancholy", "Saturnine", "Solemn", "Glum", "Austere", "Morose", "Surly", "Brusque", "Gruff", "Demise", "Necrosis", "Silence", "Enigma", "Virulence", "Spite", "Malign", "Storm", "Serene", "Harmony", "Strife", "Striker", "Sloth", "Drowsy", "Supine", "Laggard"];
-
 function generator$elder_scrolls$daedrics() {
+	var nm1 = ["b", "br", "c", "cr", "ch", "d", "dr", "g", "gr", "j", "k", "kr", "kn", "km", "p", "pr", "q", "qr", "r", "st", "str", "t", "tr", "v", "vr", "w", "wr", "x", "z", "zr", "", "", "", "", ""];
+	var nm2 = ["a", "e", "i", "o", "u", "y", "au", "ou", "ei", "uy", "oe", "ua", "ue", "uo", "a", "e", "i", "o", "u", "y"];
+	var nm3 = ["b", "c", "d", "g", "j", "k", "l", "m", "p", "q", "r", "s", "t", "v", "w", "x", "z", "br", "cr", "dr", "gr", "kr", "km", "pr", "qr", "st", "tr", "xx", "g", "q'", "k'", "rr", "r'", "t'", "tt", "vv", "v'", "x'", "z'", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
+	var nm4 = ["a", "e", "i", "o", "u", "", "", "", "", "", ""];
+	var nm5 = ["ag", "ah", "al", "ala", "alag", "ath", "bal", "cath", "cius", "cus", "dea", "dia", "hala", "icus", "ina", "ine", "ira", "ite", "lag", "maeus", "mina", "nal", "nes", "oth", "rath", "roth", "unes", "ura", "us", "vus", "yite", ];
+	var nm6 = ["b", "bl", "c", "cl", "ch", "d", "f", "fr", "fl", "g", "gl", "gn", "h", "kl", "kn", "m", "n", "p", "pl", "ph", "q", "ql", "s", "st", "sl", "t", "v", "vl", "w", "z", "", "", "", "", ""];
+	var nm7 = ["a", "e", "i", "o", "u", "y", "ae", "ea", "eo", "oe", "ie", "ue", "ua", "a", "e", "i", "o", "u", "y"];
+	var nm8 = ["b", "c", "f", "g", "h", "k", "l", "m", "n", "p", "q", "r", "s", "w", "bb", "bl", "ff", "fl", "gl", "gn", "hh", "hs", "hl", "hn", "hm", "ks", "ll", "lh", "kh", "bh", "ch", "dh", "lm", "ln", "lf", "mm", "mn", "ms", "nn", "ns", "p", "ph", "ps", "rf", "ss", "st", "sh", "th", "ts", "s'", "l'", "n'", "m'", "f'", "h'"];
+	var nm9 = ["a", "e", "i", "o", "u", "y", "", "", "", "", "", ""];
+	var nm10 = ["ag", "ah", "al", "ala", "alag", "ath", "bal", "cath", "cius", "cus", "dea", "dia", "hala", "icus", "ina", "ine", "ira", "ite", "lag", "maeus", "mina", "nal", "nes", "oth", "rath", "roth", "unes", "ura", "us", "vus", "yite"];
+	var nm11 = ["Insomnia", "Lunacy", "Luna", "Mania", "Phobia", "Luna", "Solar", "Dementia", "Hysteria", "Delirium", "Pedigree", "Bane", "Anathema", "Grace", "Hope", "Malison", "Misery", "Blight", "Poison", "Venom", "Calamity", "Malificent", "Sinister", "Grim", "Gloom", "Dire", "Malign", "Malefic", "Joy", "Nova", "Misty", "Dusk", "Dawn", "Twilight", "Rogue", "Ominous", "Vile", "Nefarious", "Melancholy", "Saturnine", "Solemn", "Glum", "Austere", "Morose", "Surly", "Brusque", "Gruff", "Demise", "Necrosis", "Silence", "Enigma", "Virulence", "Spite", "Malign", "Storm", "Serene", "Harmony", "Strife", "Striker", "Sloth", "Drowsy", "Supine", "Laggard"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		if (i < 4) {

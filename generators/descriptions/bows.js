@@ -13,7 +13,7 @@ function generator$descriptions$bows() {
 	var nm11 = ["cloth", "coarse hide", "dark leather", "ebon", "fur", "hide", "ivory", "leaves", "light leather", "linen", "obsidian", "rare hide", "rare leather", "rare silk", "reptilian skin", "soft hide", "soft silk", "thick leather"];
 	var nm12 = ["carved woodworks", "feathers", "gilded decorations", "gilded linings", "glowing threads", "intricate thread work", "leaves", "magic runes", "ominous carvings", "painted decorations", "rune-like symbols", "sigil decorations", "small gems", "symbolic writing", "tribal paintings"];
 	var nm13 = ["a skilled archer", "any archer", "a master archer", "an expert archer", "anybody", "a trained archer", "a novice archer"];
-	var nm14 = Math.floor(Math.random() * 200)) + 1);
+	var nm14 = Math.floor(Math.random() * 200) + 1;
 	var nm15 = "handle";
 	var nm16 = ["broad", "bulky", "large", "long", "modest", "narrow", "sizable", "small", "wide"];
 	var nm17 = ["a hollowed out tree trunk", "coarse hide", "common fur and hide", "common hide", "dark leather", "hollowed out bamboo", "light leather", "rare fur and hide", "rare hide", "rare leather", "reptilian skin", "soft hide", "thick leather", "woven fabric", "woven leaves", "woven natural fibres", "woven vines"];

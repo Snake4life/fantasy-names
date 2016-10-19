@@ -1,14 +1,14 @@
-var nm1 = ["B", "C", "Ch", "D", "G", "Gr", "K", "Kr", "M", "Pr", "R", "Sr", "Sch", "T", "V", "Vr", "W", "Z"];
-var nm2 = ["a", "ae", "ei", "i", "o", "ou", "u", "a", "u", "a", "u", "o", "ii", "ea", "oo", "aa", "a", "u"];
-var nm3 = ["b", "b", "ch", "d", "g", "d", "g", "gr", "k", "l", "m", "n", "t", "v", "w", "k", "l", "m", "n", "t", "v", "w", "xt", "y", "z", "y", "z", "zy"];
-var nm4 = ["d", "k", "l", "lr", "n", "p", "r", "t", "v", "", ""];
-
-var nm5 = ["B", "C", "H", "J", "K", "Kh", "R", "S", "Sh", "X", "Y", "Z", "Zh"];
-var nm6 = ["a", "ae", "ei", "i", "o", "ou", "u", "a", "u", "a", "u", "o", "ii", "ea", "oo", "aa", "oi", "ee"];
-var nm7 = ["c", "ch", "gg", "gr", "l", "ll", "ln", "ngy", "ng", "n", "m", "s", "st", "sh", "shw", "v", "ys", "w", "wr", "c", "g", "l", "s", "v", "w", "c", "g", "l", "s", "v", "w", "n", "n", "m", "m"];
-var nm8 = ["d", "l", "n", "m", "s", "x", "", "", "", "", "", ""];
-
 function generator$star_trek$rigelians(type) {
+	var nm1 = ["B", "C", "Ch", "D", "G", "Gr", "K", "Kr", "M", "Pr", "R", "Sr", "Sch", "T", "V", "Vr", "W", "Z"];
+	var nm2 = ["a", "ae", "ei", "i", "o", "ou", "u", "a", "u", "a", "u", "o", "ii", "ea", "oo", "aa", "a", "u"];
+	var nm3 = ["b", "b", "ch", "d", "g", "d", "g", "gr", "k", "l", "m", "n", "t", "v", "w", "k", "l", "m", "n", "t", "v", "w", "xt", "y", "z", "y", "z", "zy"];
+	var nm4 = ["d", "k", "l", "lr", "n", "p", "r", "t", "v", "", ""];
+
+	var nm5 = ["B", "C", "H", "J", "K", "Kh", "R", "S", "Sh", "X", "Y", "Z", "Zh"];
+	var nm6 = ["a", "ae", "ei", "i", "o", "ou", "u", "a", "u", "a", "u", "o", "ii", "ea", "oo", "aa", "oi", "ee"];
+	var nm7 = ["c", "ch", "gg", "gr", "l", "ll", "ln", "ngy", "ng", "n", "m", "s", "st", "sh", "shw", "v", "ys", "w", "wr", "c", "g", "l", "s", "v", "w", "c", "g", "l", "s", "v", "w", "n", "n", "m", "m"];
+	var nm8 = ["d", "l", "n", "m", "s", "x", "", "", "", "", "", ""];
+
 
 	i = Math.floor(Math.random() * 10); {
 		if (type === 1) {

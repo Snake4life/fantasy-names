@@ -1,10 +1,10 @@
-var nm1 = ["ch", "chr", "d", "h", "k", "m", "n", "ph", "r", "sth", "th", "x", "v", "z"];
-var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "y", "a", "e", "i", "o", "u", "y", "eia", "ei", "eu", "ae", "ya", "ai", "ia"];
-var nm3 = ["d", "l", "m", "n", "r", "s", "x", "v", "z", "d", "l", "m", "n", "r", "s", "x", "v", "z", "d", "l", "m", "n", "r", "s", "x", "v", "z", "dn", "dr", "gg", "gn", "kt", "lc", "ld", "mbr", "nc", "ndr", "nt", "nth", "rd", "rl", "rr", "sc", "sd", "sn", "sp", "st", "str", "th", "tt"];
-var nm4 = ["a", "e", "o", "a", "e", "o", "a", "e", "o", "ea", "ia", "y"];
-var nm5 = ["aemon", "aenon", "aeon", "aestus", "aeus", "agos", "aios", "anes", "anos", "antos", "aon", "arus", "as", "ates", "atos", "aumas", "eas", "eidon", "er", "erion", "erus", "es", "etheus", "etus", "eus", "ias", "ibos", "ion", "ios", "is", "iton", "ius", "o", "oeis", "oeus", "olus", "on", "onos", "or", "os", "oteus", "otos", "otus", "ous", "us", "yrus", "ys", "ytion"];
-
 function generator$fantasy$gorgons(type) {
+	var nm1 = ["ch", "chr", "d", "h", "k", "m", "n", "ph", "r", "sth", "th", "x", "v", "z"];
+	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "y", "a", "e", "i", "o", "u", "y", "eia", "ei", "eu", "ae", "ya", "ai", "ia"];
+	var nm3 = ["d", "l", "m", "n", "r", "s", "x", "v", "z", "d", "l", "m", "n", "r", "s", "x", "v", "z", "d", "l", "m", "n", "r", "s", "x", "v", "z", "dn", "dr", "gg", "gn", "kt", "lc", "ld", "mbr", "nc", "ndr", "nt", "nth", "rd", "rl", "rr", "sc", "sd", "sn", "sp", "st", "str", "th", "tt"];
+	var nm4 = ["a", "e", "o", "a", "e", "o", "a", "e", "o", "ea", "ia", "y"];
+	var nm5 = ["aemon", "aenon", "aeon", "aestus", "aeus", "agos", "aios", "anes", "anos", "antos", "aon", "arus", "as", "ates", "atos", "aumas", "eas", "eidon", "er", "erion", "erus", "es", "etheus", "etus", "eus", "ias", "ibos", "ion", "ios", "is", "iton", "ius", "o", "oeis", "oeus", "olus", "on", "onos", "or", "os", "oteus", "otos", "otus", "ous", "us", "yrus", "ys", "ytion"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		if (type === 1) {

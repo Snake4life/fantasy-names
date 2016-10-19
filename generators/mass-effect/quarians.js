@@ -1,10 +1,10 @@
-var names2 = ["a", "e", "i", "o", "u", "aa", "ee", "ae"];
-var names5 = ["C", "F", "H", "G", "J", "L", "M", "N", "R", "S", "Sh", "V", "T", "W", "X", "Y", "Z"];
-var names6 = ["dal", "dda", "dor", "fal", "fin", "for", "gar", "l", "la", "lan", "las", "lin", "ll", "llo", "lon", "lun", "m", "ma", "man", "mas", "me", "min", "mis", "mm", "mma", "mor", "mos", "mun", "n", "nar", "nis", "nn", "nna", "r", "ra", "rah", "ram", "ras", "ris", "rol", "rrel", "rul", "s", "sa", "sal", "sar", "ss", "sul", "zh", "zu"];
-var names7 = ["nar", "vas"];
-var names8 = ["bra", "ca", "chol", "darum", "din", "dir", "dolor", "dor", "doruk", "firn", "fis", "gro", "hala", "hok", "ji", "jol", "ko", "kor", "kra", "larm", "lazi", "leya", "ma", "morn", "nbay", "nil", "nna", "pal", "pan", "ra", "rah", "raka", "ram", "rark", "reh", "ron", "sost", "talir", "vo", "vum", "wa", "wal", "wan", "wib", "worp", "yya", "zal", "zay", "zorn", "zzor"];
-
 function generator$mass_effect$quarians(type) {
+	var names2 = ["a", "e", "i", "o", "u", "aa", "ee", "ae"];
+	var names5 = ["C", "F", "H", "G", "J", "L", "M", "N", "R", "S", "Sh", "V", "T", "W", "X", "Y", "Z"];
+	var names6 = ["dal", "dda", "dor", "fal", "fin", "for", "gar", "l", "la", "lan", "las", "lin", "ll", "llo", "lon", "lun", "m", "ma", "man", "mas", "me", "min", "mis", "mm", "mma", "mor", "mos", "mun", "n", "nar", "nis", "nn", "nna", "r", "ra", "rah", "ram", "ras", "ris", "rol", "rrel", "rul", "s", "sa", "sal", "sar", "ss", "sul", "zh", "zu"];
+	var names7 = ["nar", "vas"];
+	var names8 = ["bra", "ca", "chol", "darum", "din", "dir", "dolor", "dor", "doruk", "firn", "fis", "gro", "hala", "hok", "ji", "jol", "ko", "kor", "kra", "larm", "lazi", "leya", "ma", "morn", "nbay", "nil", "nna", "pal", "pan", "ra", "rah", "raka", "ram", "rark", "reh", "ron", "sost", "talir", "vo", "vum", "wa", "wal", "wan", "wib", "worp", "yya", "zal", "zay", "zorn", "zzor"];
+
 	if (type === 1) {
 		var names1 = ["K", "G", "C", "F", "H", "J", "L", "M", "N", "R", "S", "V", "W", "Y", "Z", "C", "F", "H", "J", "L", "M", "N", "R", "S", "V", "W", "Y", "Z"];
 		var names3 = ["f", "h", "l", "m", "n", "r", "s", "l", "n", "nn", "mm", "tor", "to", "sin", "lo"];

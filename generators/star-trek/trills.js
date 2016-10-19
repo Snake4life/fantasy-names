@@ -1,19 +1,19 @@
-var nm1 = ["", "b", "c", "d", "g", "gr", "h", "j", "k", "m", "n", "r", "s", "t", "v", "vr", "y"];
-var nm2 = ["ia", "aa", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u"];
-var nm3 = ["b", "d", "dr", "g", "hj", "j", "l", "m", "mbl", "n", "r", "rv", "rz", "rj"];
-var nm4 = ["", "d", "g", "l", "m", "n", "r", "ss"];
-
-var nm5 = ["", "b", "d", "g", "h", "j", "k", "l", "m", "n", "s", "r", "v", "y"];
-var nm6 = ["au", "ia", "ee", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u"];
-var nm7 = ["b", "dr", "dz", "l", "ll", "m", "n", "nh", "r", "s", "ss", "sr", "z", "zr"];
-var nm8 = ["", "", "", "", "", "d", "h", "l", "ll", "m", "n", "s"];
-
-var nm9 = ["b", "d", "gr", "k", "l", "m", "n", "p", "pr", "r", "t", "v"];
-var nm10 = ["", "", "ee", "ia", "au", "aa", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u"];
-var nm11 = ["", "", "", "", "", "", "", "", "b", "d", "g", "gr", "gn", "l", "ll", "m", "n", "rr", "r", "s", "tn", "v", "z"];
-var nm12 = ["d", "g", "hn", "hl", "l", "m", "n", "r", "rs", "s", "x"];
-
 function generator$star_trek$trills(type) {
+	var nm1 = ["", "b", "c", "d", "g", "gr", "h", "j", "k", "m", "n", "r", "s", "t", "v", "vr", "y"];
+	var nm2 = ["ia", "aa", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u"];
+	var nm3 = ["b", "d", "dr", "g", "hj", "j", "l", "m", "mbl", "n", "r", "rv", "rz", "rj"];
+	var nm4 = ["", "d", "g", "l", "m", "n", "r", "ss"];
+
+	var nm5 = ["", "b", "d", "g", "h", "j", "k", "l", "m", "n", "s", "r", "v", "y"];
+	var nm6 = ["au", "ia", "ee", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u"];
+	var nm7 = ["b", "dr", "dz", "l", "ll", "m", "n", "nh", "r", "s", "ss", "sr", "z", "zr"];
+	var nm8 = ["", "", "", "", "", "d", "h", "l", "ll", "m", "n", "s"];
+
+	var nm9 = ["b", "d", "gr", "k", "l", "m", "n", "p", "pr", "r", "t", "v"];
+	var nm10 = ["", "", "ee", "ia", "au", "aa", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u"];
+	var nm11 = ["", "", "", "", "", "", "", "", "b", "d", "g", "gr", "gn", "l", "ll", "m", "n", "rr", "r", "s", "tn", "v", "z"];
+	var nm12 = ["d", "g", "hn", "hl", "l", "m", "n", "r", "rs", "s", "x"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		if (type === 1) {

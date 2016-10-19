@@ -1,13 +1,13 @@
-var nm1 = ["", "", "", "c", "d", "f", "h", "k", "m", "n", "r", "s", "t", "v", "w", "z"];
-var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ee", "ae", "ie", "ye", "yi", "ei"];
-var nm3 = ["d", "dh", "f", "fl", "fn", "l", "ll", "ld", "ln", "lm", "lr", "lv", "m", "mm", "md", "mr", "mn", "mk", "n", "nn", "nh", "nk", "ng", "nv", "nl", "r", "rr", "rn", "rl", "rk", "rd", "s", "sl", "sh", "shk"];
-var nm4 = ["", "", "", "", "j", "l", "m", "n", "r", "s", "th"];
-var nm5 = ["ch", "d", "h", "j", "k", "m", "n", "t", "v", "z"];
-var nm6 = ["a", "e", "i", "a", "e", "i", "a", "e", "i", "o", "u", "aa", "ii"];
-var nm7 = ["d", "f", "h", "j", "l", "m", "n", "r", "s", "v", "w", "z"];
-var nm8 = ["", "", "l", "mm", "n", "r", "s"];
-
 function generator$star_wars$iktotchis(type) {
+	var nm1 = ["", "", "", "c", "d", "f", "h", "k", "m", "n", "r", "s", "t", "v", "w", "z"];
+	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ee", "ae", "ie", "ye", "yi", "ei"];
+	var nm3 = ["d", "dh", "f", "fl", "fn", "l", "ll", "ld", "ln", "lm", "lr", "lv", "m", "mm", "md", "mr", "mn", "mk", "n", "nn", "nh", "nk", "ng", "nv", "nl", "r", "rr", "rn", "rl", "rk", "rd", "s", "sl", "sh", "shk"];
+	var nm4 = ["", "", "", "", "j", "l", "m", "n", "r", "s", "th"];
+	var nm5 = ["ch", "d", "h", "j", "k", "m", "n", "t", "v", "z"];
+	var nm6 = ["a", "e", "i", "a", "e", "i", "a", "e", "i", "o", "u", "aa", "ii"];
+	var nm7 = ["d", "f", "h", "j", "l", "m", "n", "r", "s", "v", "w", "z"];
+	var nm8 = ["", "", "l", "mm", "n", "r", "s"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		rnd6 = Math.floor(Math.random() * nm5.length);

@@ -1,13 +1,13 @@
-var nm1 = ["", "", "", "", "", "bh", "d", "dh", "g", "gh", "j", "kh", "m", "n", "r", "rh", "sh", "v", "z"];
-var nm2 = ["a", "e", "i", "o", "a", "e", "i", "o", "a", "e", "i", "o", "a", "e", "i", "o", "a", "e", "i", "o", "a", "e", "i", "o", "aa", "oo"];
-var nm3 = ["b", "bd", "c", "cd", "d", "dd", "db", "g", "gd", "gv", "gn", "gm", "j", "k", "kb", "kd", "kn", "km", "kv", "m", "md", "mm", "mb", "n", "nn", "nb", "nd", "r", "rd", "rg", "rv", "rz", "v", "b", "c", "d", "g", "j", "k", "m", "n", "r", "v"];
-var nm4 = ["d", "hz", "j", "k", "m", "n", "r", "sh", "v"];
-var nm5 = ["", "", "", "b", "c", "d", "f", "h", "l", "m", "n", "p", "r", "s", "w", "z"];
-var nm6 = ["a", "e", "i", "u", "a", "e", "i", "u", "a", "e", "i", "u", "a", "e", "i", "u", "a", "e", "i", "u", "y", "y", "y", "ya", "aa"];
-var nm7 = ["b", "bh", "d", "dz", "dh", "fd", "fn", "ff", "f", "fz", "hn", "hl", "hr", "hm", "h", "hh", "l", "lg", "ld", "lb", "lf", "ln", "m", "mm", "mn", "mr", "mf", "n", "nn", "nr", "nd", "nf", "nh", "r", "rh", "rb", "rv", "rd", "rz", "v", "vr", "b", "d", "f", "h", "l", "n", "m", "r", "v", "b", "d", "f", "h", "l", "n", "m", "r", "v"];
-var nm8 = ["", "", "", "", "", "", "", "", "", "", "h", "n"];
-
 function generator$pathfinder$undines(type) {
+	var nm1 = ["", "", "", "", "", "bh", "d", "dh", "g", "gh", "j", "kh", "m", "n", "r", "rh", "sh", "v", "z"];
+	var nm2 = ["a", "e", "i", "o", "a", "e", "i", "o", "a", "e", "i", "o", "a", "e", "i", "o", "a", "e", "i", "o", "a", "e", "i", "o", "aa", "oo"];
+	var nm3 = ["b", "bd", "c", "cd", "d", "dd", "db", "g", "gd", "gv", "gn", "gm", "j", "k", "kb", "kd", "kn", "km", "kv", "m", "md", "mm", "mb", "n", "nn", "nb", "nd", "r", "rd", "rg", "rv", "rz", "v", "b", "c", "d", "g", "j", "k", "m", "n", "r", "v"];
+	var nm4 = ["d", "hz", "j", "k", "m", "n", "r", "sh", "v"];
+	var nm5 = ["", "", "", "b", "c", "d", "f", "h", "l", "m", "n", "p", "r", "s", "w", "z"];
+	var nm6 = ["a", "e", "i", "u", "a", "e", "i", "u", "a", "e", "i", "u", "a", "e", "i", "u", "a", "e", "i", "u", "y", "y", "y", "ya", "aa"];
+	var nm7 = ["b", "bh", "d", "dz", "dh", "fd", "fn", "ff", "f", "fz", "hn", "hl", "hr", "hm", "h", "hh", "l", "lg", "ld", "lb", "lf", "ln", "m", "mm", "mn", "mr", "mf", "n", "nn", "nr", "nd", "nf", "nh", "r", "rh", "rb", "rv", "rd", "rz", "v", "vr", "b", "d", "f", "h", "l", "n", "m", "r", "v", "b", "d", "f", "h", "l", "n", "m", "r", "v"];
+	var nm8 = ["", "", "", "", "", "", "", "", "", "", "h", "n"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		if (type === 1) {

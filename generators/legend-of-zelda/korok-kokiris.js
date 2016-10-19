@@ -1,13 +1,13 @@
-var nm1 = ["", "", "", "", "b", "d", "br", "dr", "gr", "g", "h", "k", "l", "m", "r", "tr", "t"];
-var nm2 = ["a", "e", "i", "o", "u"];
-var nm3 = ["c", "g", "gn", "gm", "k", "kl", "l", "v", "ld", "lm", "ll", "m", "md", "n", "nd", "r", "rn", "s", "sn", "sm", "sr"];
-var nm4 = ["", "", "", "", "", "", "", "", "h", "l", "m", "s", "r", "n", "wn", "w"];
-var nm5 = ["b", "d", "f", "g", "h", "k", "l", "m", "n", "p", "r", "s", "t", "z"];
-var nm6 = ["b", "d", "f", "g", "h", "l", "k", "m", "n", "p", "r", "s", "t", "v", "w", "z"];
-var nm7 = ["c", "d", "f", "g", "h", "k", "l", "m", "n", "ph", "r", "s", "t", "th", "w", "z"];
-var nm8 = ["a", "e", "i", "o", "u", "ai", "ae", "ea", "ei", "eo", "ia", "io", "iu", "ie", "oa", "oe", "oi", "ou", "ua", "ue", "uo", "ui"];
-
 function generator$legend_of_zelda$korok_kokiris(type) {
+	var nm1 = ["", "", "", "", "b", "d", "br", "dr", "gr", "g", "h", "k", "l", "m", "r", "tr", "t"];
+	var nm2 = ["a", "e", "i", "o", "u"];
+	var nm3 = ["c", "g", "gn", "gm", "k", "kl", "l", "v", "ld", "lm", "ll", "m", "md", "n", "nd", "r", "rn", "s", "sn", "sm", "sr"];
+	var nm4 = ["", "", "", "", "", "", "", "", "h", "l", "m", "s", "r", "n", "wn", "w"];
+	var nm5 = ["b", "d", "f", "g", "h", "k", "l", "m", "n", "p", "r", "s", "t", "z"];
+	var nm6 = ["b", "d", "f", "g", "h", "l", "k", "m", "n", "p", "r", "s", "t", "v", "w", "z"];
+	var nm7 = ["c", "d", "f", "g", "h", "k", "l", "m", "n", "ph", "r", "s", "t", "th", "w", "z"];
+	var nm8 = ["a", "e", "i", "o", "u", "ai", "ae", "ea", "ei", "eo", "ia", "io", "iu", "ie", "oa", "oe", "oi", "ou", "ua", "ue", "uo", "ui"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		if (type === 1) {

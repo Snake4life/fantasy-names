@@ -1,9 +1,9 @@
-var nm1 = ["", "", "b", "d", "g", "kh", "k", "r", "sk", "skg", "t", "y", "v", "z"];
-var nm2 = ["a", "e", "o", "u"];
-var nm3 = ["b", "br", "bv", "bgr", "bdr", "d", "dv", "dz", "dzgr", "dgr", "gr", "gn", "gz", "hgr", "hr", "lk", "lv", "r", "rg", "rd", "rb", "rv", "rtv", "rzhv", "tv", "tr", "thb", "tz", "zg", "zb", "zr", "ztr", "zhgr"];
-var nm4 = ["c", "g", "k", "sz", "shz", "zh", "z"];
-
 function generator$inheritance_cycle$urgals(type) {
+	var nm1 = ["", "", "b", "d", "g", "kh", "k", "r", "sk", "skg", "t", "y", "v", "z"];
+	var nm2 = ["a", "e", "o", "u"];
+	var nm3 = ["b", "br", "bv", "bgr", "bdr", "d", "dv", "dz", "dzgr", "dgr", "gr", "gn", "gz", "hgr", "hr", "lk", "lv", "r", "rg", "rd", "rb", "rv", "rtv", "rzhv", "tv", "tr", "thb", "tz", "zg", "zb", "zr", "ztr", "zhgr"];
+	var nm4 = ["c", "g", "k", "sz", "shz", "zh", "z"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		rnd = Math.floor(Math.random() * nm1.length);

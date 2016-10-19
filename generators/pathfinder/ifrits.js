@@ -1,13 +1,13 @@
-var nm1 = ["", "", "", "", "b", "d", "g", "j", "k", "m", "n", "r", "t", "v", "z"];
-var nm2 = ["a", "e", "i", "u"];
-var nm3 = ["c", "f", "g", "j", "k", "l", "m", "n", "q", "r", "v"];
-var nm4 = ["", "", "", "d", "g", "h", "j", "l", "m", "n", "q", "t"];
-var nm5 = ["", "", "", "c", "f", "g", "h", "l", "m", "n", "q", "s", "w", "z"];
-var nm6 = ["a", "e", "i"];
-var nm7 = ["d", "dw", "dr", "h", "l", "lr", "ly", "m", "ml", "mr", "n", "nr", "nl", "q", "qh", "qr", "r", "rh", "ry", "rl", "t", "ty", "th", "tw", "tr", "w", "y"];
-var nm8 = ["", "", "", "", "", "", "", "", "h", "n", "s"];
-
 function generator$pathfinder$ifrits(type) {
+	var nm1 = ["", "", "", "", "b", "d", "g", "j", "k", "m", "n", "r", "t", "v", "z"];
+	var nm2 = ["a", "e", "i", "u"];
+	var nm3 = ["c", "f", "g", "j", "k", "l", "m", "n", "q", "r", "v"];
+	var nm4 = ["", "", "", "d", "g", "h", "j", "l", "m", "n", "q", "t"];
+	var nm5 = ["", "", "", "c", "f", "g", "h", "l", "m", "n", "q", "s", "w", "z"];
+	var nm6 = ["a", "e", "i"];
+	var nm7 = ["d", "dw", "dr", "h", "l", "lr", "ly", "m", "ml", "mr", "n", "nr", "nl", "q", "qh", "qr", "r", "rh", "ry", "rl", "t", "ty", "th", "tw", "tr", "w", "y"];
+	var nm8 = ["", "", "", "", "", "", "", "", "h", "n", "s"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		if (type === 1) {

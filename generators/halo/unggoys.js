@@ -1,9 +1,9 @@
-var nm1 = ["a", "i", "u"];
-var nm2 = ["d", "f", "k", "l", "m", "s", "w", "p", "y", "z"];
-var nm3 = ["fl", "kl", "sl", "sm", "pl", "zl", "d", "f", "k", "l", "m", "s", "w", "p", "y", "z"];
-var nm4 = ["fl", "kl", "sl", "sm", "pl", "zl"];
-
 function generator$halo$unggoys() {
+	var nm1 = ["a", "i", "u"];
+	var nm2 = ["d", "f", "k", "l", "m", "s", "w", "p", "y", "z"];
+	var nm3 = ["fl", "kl", "sl", "sm", "pl", "zl", "d", "f", "k", "l", "m", "s", "w", "p", "y", "z"];
+	var nm4 = ["fl", "kl", "sl", "sm", "pl", "zl"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		if (i < 5) {

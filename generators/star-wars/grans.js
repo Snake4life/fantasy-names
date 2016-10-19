@@ -1,10 +1,10 @@
-var nm1 = ["", "", "", "", "", "b", "br", "c", "dr", "f", "g", "gr", "h", "j", "k", "kh", "kl", "kr", "l", "m", "n", "p", "ph", "r", "rh", "s", "sh", "shm", "t", "th", "tw", "v", "y", "z", "zh"];
-var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ee", "aa", "oe", "ie", "ia", "ea"];
-var nm3 = ["b", "c", "d", "f", "g", "gg", "gh", "k", "kg", "kk", "ks", "l", "ll", "lv", "m", "mm", "n", "nch", "nl", "nn", "ns", "p", "ph", "r", "rb", "rg", "rh", "rl", "rr", "rv", "s", "sk", "ss", "t", "th", "tt", "w", "wh", "y", "yc"];
-var nm4 = ["", "", "", "", "", "b", "c", "d", "f", "ff", "g", "gh", "j", "k", "ks", "kz", "l", "ls", "m", "n", "nd", "ps", "r", "rch", "rg", "s", "sk", "ss", "th", "wz", "x", "yk", "z"];
-var nm5 = ["ee", "aa", "oe", "ie", "ia", "ea", "ei"];
-
 function generator$star_wars$grans() {
+	var nm1 = ["", "", "", "", "", "b", "br", "c", "dr", "f", "g", "gr", "h", "j", "k", "kh", "kl", "kr", "l", "m", "n", "p", "ph", "r", "rh", "s", "sh", "shm", "t", "th", "tw", "v", "y", "z", "zh"];
+	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ee", "aa", "oe", "ie", "ia", "ea"];
+	var nm3 = ["b", "c", "d", "f", "g", "gg", "gh", "k", "kg", "kk", "ks", "l", "ll", "lv", "m", "mm", "n", "nch", "nl", "nn", "ns", "p", "ph", "r", "rb", "rg", "rh", "rl", "rr", "rv", "s", "sk", "ss", "t", "th", "tt", "w", "wh", "y", "yc"];
+	var nm4 = ["", "", "", "", "", "b", "c", "d", "f", "ff", "g", "gh", "j", "k", "ks", "kz", "l", "ls", "m", "n", "nd", "ps", "r", "rch", "rg", "s", "sk", "ss", "th", "wz", "x", "yk", "z"];
+	var nm5 = ["ee", "aa", "oe", "ie", "ia", "ea", "ei"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		rnd6 = Math.floor(Math.random() * nm1.length);

@@ -1,24 +1,24 @@
-var nm1 = ["a", "e", "i", "o", "u", "", "", "", "", "", ""];
-var nm2 = ["b", "c", "d", "g", "k", "l", "m", "n", "r", "s", "t"];
-var nm3 = ["a", "e", "i", "o", "u", "ei", "aa", "oa"];
-var nm4 = ["b", "c", "d", "g", "k", "l", "m", "n", "r", "s", "t", "b", "c", "d", "g", "k", "l", "m", "n", "r", "s", "t", "br", "cr", "dr", "gr", "kr", "mr", "nr", "tr", "sb", "sd", "sl", "sm", "sn", "sr", "str", "ndr", "nd", "ng", "nk", "nl", "nt", "tt", "rr", "bb", "dd", "gg"];
-var nm5 = ["a", "e", "i", "o", "u"];
-var nm6 = ["m", "n", "s", "d", "h", "l"];
-
-var nm7 = ["d", "h", "j", "k", "l", "lw", "m", "n", "st", "t", "r", "rw", "v"];
-var nm8 = ["a", "e", "i", "o", "u", "ea", "ee", "ia"];
-var nm9 = ["d", "h", "l", "ll", "nn", "mm", "n", "m", "rr", "r", "s", "ss", "str", "v", "vr", "x", "y"];
-var nm10 = ["a", "e", "i", "o"];
-var nm11 = ["d", "h", "l", "n", "m", "r", "s", "v", "x", "y"];
-var nm12 = ["t", "h", "w", "n", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
-
-var nm13 = ["a", "e", "i", "o", "u", "", "", "", "", "", ""];
-var nm14 = ["b", "d", "g", "h", "k", "m", "n", "r", "s", "t", "v", "z", "gr", "dr", "tr", "br", "ch"];
-var nm15 = ["a", "e", "i", "o", "u", "oi", "aa", "ea", "ai", "ei"];
-var nm16 = ["b", "c", "d", "g", "k", "l", "lbr", "m", "n", "r", "s", "str", "t", "v", "x", "z"];
-var nm17 = ["x", "n", "r", "l", "m", "k", "d", "t", "", "", "", "", "", ""];
-
 function generator$star_trek$betazoids(type) {
+	var nm1 = ["a", "e", "i", "o", "u", "", "", "", "", "", ""];
+	var nm2 = ["b", "c", "d", "g", "k", "l", "m", "n", "r", "s", "t"];
+	var nm3 = ["a", "e", "i", "o", "u", "ei", "aa", "oa"];
+	var nm4 = ["b", "c", "d", "g", "k", "l", "m", "n", "r", "s", "t", "b", "c", "d", "g", "k", "l", "m", "n", "r", "s", "t", "br", "cr", "dr", "gr", "kr", "mr", "nr", "tr", "sb", "sd", "sl", "sm", "sn", "sr", "str", "ndr", "nd", "ng", "nk", "nl", "nt", "tt", "rr", "bb", "dd", "gg"];
+	var nm5 = ["a", "e", "i", "o", "u"];
+	var nm6 = ["m", "n", "s", "d", "h", "l"];
+
+	var nm7 = ["d", "h", "j", "k", "l", "lw", "m", "n", "st", "t", "r", "rw", "v"];
+	var nm8 = ["a", "e", "i", "o", "u", "ea", "ee", "ia"];
+	var nm9 = ["d", "h", "l", "ll", "nn", "mm", "n", "m", "rr", "r", "s", "ss", "str", "v", "vr", "x", "y"];
+	var nm10 = ["a", "e", "i", "o"];
+	var nm11 = ["d", "h", "l", "n", "m", "r", "s", "v", "x", "y"];
+	var nm12 = ["t", "h", "w", "n", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
+
+	var nm13 = ["a", "e", "i", "o", "u", "", "", "", "", "", ""];
+	var nm14 = ["b", "d", "g", "h", "k", "m", "n", "r", "s", "t", "v", "z", "gr", "dr", "tr", "br", "ch"];
+	var nm15 = ["a", "e", "i", "o", "u", "oi", "aa", "ea", "ai", "ei"];
+	var nm16 = ["b", "c", "d", "g", "k", "l", "lbr", "m", "n", "r", "s", "str", "t", "v", "x", "z"];
+	var nm17 = ["x", "n", "r", "l", "m", "k", "d", "t", "", "", "", "", "", ""];
+
 
 	i = Math.floor(Math.random() * 10); {
 		if (type === 1) {

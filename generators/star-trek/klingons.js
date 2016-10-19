@@ -1,22 +1,22 @@
-var nm1 = ["a", "o", "u", "e"];
-var nm2 = ["b", "d", "g", "h", "j", "k", "l", "m", "n", "p", "r", "s", "t", "v", "w", "y", "ts", "th", "tr", "st", "sh", "gr", "ch", "kr", "kl", "dr"];
-var nm3 = ["a", "e", "i", "o", "u", "a", "o"];
-var nm4 = ["k", "k", "k", "m", "t", "r", "v", "g", "p", "n", "l", "d", "z", "b", "h", "m", "t", "r", "v", "g", "p", "n", "l", "d", "z", "b", "h", "r", "r", "r", "cl", "dm", "dr", "gh", "gr", "hl", "hm", "ll", "mp", "mt", "nk", "nm", "nt", "rg", "rk", "rl", "rn", "rp", "rr", "rt", "sk", "th", "tr", "wr", "yb"];
-var nm5 = ["k", "k", "m", "r", "k", "l", "n", "rgh", "ng", "x", "s", "n", "th", "hk", "hl", "d", "l", "c", "gh", "ss", "z", "ll", "rrd", "rd", "t", "q", "sh", "w", "rf"];
-var nm6 = ["o", "a", "i", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
-var nm7 = ["'", "", "", "", "", "", "", "", "", ""];
-var nm8 = ["", "Ch'", "D'", "H'", "J'", "K'", "L'", "T'", "W'", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
-
-var nm9 = ["b", "d", "g", "h", "j", "k", "l", "m", "n", "p", "r", "s", "t", "v", "w", "y", "ts", "th", "tr", "st", "sh", "gr", "ch", "kr", "kl", "dr"];
-var nm10 = ["d", "g", "h", "k", "l", "m", "n", "r", "t", "v", "x", "z", "lk", "nn", "tb", "hl", "rs", "ll", "lkr", "km", "dr", "rl", "lk", "lg", "rg", "sk", "th", "tr", "dm", "hm", "ng", "nk", "l", "n", "l", "n", "k"];
-var nm11 = ["r", "nn", "l", "h", "g", "n", "ss", "s", "yr", "st", "th", "j", "m", "v", "ll", "sh", "hl", "ng", "w"];
-var nm12 = ["o", "a", "i", "", "", "", "", "", ""];
-
-var nm13 = ["", "", "", "b", "c", "g'g", "d", "d'gh", "dr", "f", "g'", "g", "gr", "h", "j", "k'g", "k't", "k'mp", "k", "kh", "kl", "kr", "l", "m", "mn", "mr", "mv", "n", "ng", "p", "q", "r", "rr", "s", "sh", "t", "th", "tr", "v", "vr", "w", "x", "z"];
-var nm14 = ["c", "ct", "ck", "ch", "b", "d", "g", "gg", "ggr", "hn", "hnr", "k", "k'M", "ll", "lk", "lv", "lm", "lt", "mm", "mmr", "m", "mp", "mr", "nn", "nk", "nl", "nj", "nz", "ndl", "ns", "n", "nt", "r", "rr", "rs", "rmd", "rn", "rp", "rtr", "rst", "rt", "rg", "rm", "rd", "rsh", "ss", "str", "sht", "tzh", "v", "wr", "x", "yg", "z", "zh"];
-var nm15 = ["bh", "c", "ct", "ck", "cx", "ch", "d", "dh", "j", "g", "gh", "h", "k", "l", "lt", "m", "n", "nn", "ng", "r", "rc", "rr", "rgh", "rk", "rv", "rn", "rg", "sh", "sht", "s", "ss", "t", "th", "v", "x", "z", "zh"];
-
 function generator$star_trek$klingons(type) {
+	var nm1 = ["a", "o", "u", "e"];
+	var nm2 = ["b", "d", "g", "h", "j", "k", "l", "m", "n", "p", "r", "s", "t", "v", "w", "y", "ts", "th", "tr", "st", "sh", "gr", "ch", "kr", "kl", "dr"];
+	var nm3 = ["a", "e", "i", "o", "u", "a", "o"];
+	var nm4 = ["k", "k", "k", "m", "t", "r", "v", "g", "p", "n", "l", "d", "z", "b", "h", "m", "t", "r", "v", "g", "p", "n", "l", "d", "z", "b", "h", "r", "r", "r", "cl", "dm", "dr", "gh", "gr", "hl", "hm", "ll", "mp", "mt", "nk", "nm", "nt", "rg", "rk", "rl", "rn", "rp", "rr", "rt", "sk", "th", "tr", "wr", "yb"];
+	var nm5 = ["k", "k", "m", "r", "k", "l", "n", "rgh", "ng", "x", "s", "n", "th", "hk", "hl", "d", "l", "c", "gh", "ss", "z", "ll", "rrd", "rd", "t", "q", "sh", "w", "rf"];
+	var nm6 = ["o", "a", "i", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
+	var nm7 = ["'", "", "", "", "", "", "", "", "", ""];
+	var nm8 = ["", "Ch'", "D'", "H'", "J'", "K'", "L'", "T'", "W'", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
+
+	var nm9 = ["b", "d", "g", "h", "j", "k", "l", "m", "n", "p", "r", "s", "t", "v", "w", "y", "ts", "th", "tr", "st", "sh", "gr", "ch", "kr", "kl", "dr"];
+	var nm10 = ["d", "g", "h", "k", "l", "m", "n", "r", "t", "v", "x", "z", "lk", "nn", "tb", "hl", "rs", "ll", "lkr", "km", "dr", "rl", "lk", "lg", "rg", "sk", "th", "tr", "dm", "hm", "ng", "nk", "l", "n", "l", "n", "k"];
+	var nm11 = ["r", "nn", "l", "h", "g", "n", "ss", "s", "yr", "st", "th", "j", "m", "v", "ll", "sh", "hl", "ng", "w"];
+	var nm12 = ["o", "a", "i", "", "", "", "", "", ""];
+
+	var nm13 = ["", "", "", "b", "c", "g'g", "d", "d'gh", "dr", "f", "g'", "g", "gr", "h", "j", "k'g", "k't", "k'mp", "k", "kh", "kl", "kr", "l", "m", "mn", "mr", "mv", "n", "ng", "p", "q", "r", "rr", "s", "sh", "t", "th", "tr", "v", "vr", "w", "x", "z"];
+	var nm14 = ["c", "ct", "ck", "ch", "b", "d", "g", "gg", "ggr", "hn", "hnr", "k", "k'M", "ll", "lk", "lv", "lm", "lt", "mm", "mmr", "m", "mp", "mr", "nn", "nk", "nl", "nj", "nz", "ndl", "ns", "n", "nt", "r", "rr", "rs", "rmd", "rn", "rp", "rtr", "rst", "rt", "rg", "rm", "rd", "rsh", "ss", "str", "sht", "tzh", "v", "wr", "x", "yg", "z", "zh"];
+	var nm15 = ["bh", "c", "ct", "ck", "cx", "ch", "d", "dh", "j", "g", "gh", "h", "k", "l", "lt", "m", "n", "nn", "ng", "r", "rc", "rr", "rgh", "rk", "rv", "rn", "rg", "sh", "sht", "s", "ss", "t", "th", "v", "x", "z", "zh"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		if (type === 1) {

@@ -1,36 +1,36 @@
-var nm1 = ["g", "h", "l", "m", "n", "gy", "p", "r", "s", "t"];
-var nm2 = ["a", "e", "i", "o"];
-var nm3 = ["h", "l", "ll", "m", "n", "ng", "nz", "r", "s", "sh", "ts"];
-var nm4 = ["", "hn", "l", "ng", "n"];
-var nm5 = ["", "h", "l", "n", "m", "p", "r", "s", "y"];
-var nm6 = ["h", "l", "m", "ng", "n", "sh", "r", "rr"];
-var nm7 = ["", "", "hn", "h", "n"];
-
-var nm8 = ["h", "r", "s", "t", "v", "z"];
-var nm9 = ["a", "i", "o"];
-var nm10 = ["cc", "dd", "kk", "lr", "sr", "nr", "rr", "vr"];
-var nm11 = ["", "", "ck", "k", "r", "m", "n", "s"];
-var nm12 = ["h", "k", "r", "t", "v", "y", "z"];
-var nm13 = ["a", "i", "o"];
-var nm14 = ["h", "k", "l", "ll", "m", "n", "nn", "r", "rr", "s", "t"];
-
-var nm15 = ["ch", "b", "f", "g", "h", "l", "m", "p", "r", "sh", "x"];
-var nm16 = ["ao", "uo", "aa", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u"];
-var nm17 = ["h", "l", "m", "n", "sh", "t"];
-var nm18 = ["", "", "", "h", "ng", "n", "r"];
-var nm19 = ["", "", "b", "f", "g", "h", "k", "l", "n", "m", "s", "sh", "t", "w"];
-var nm19b = ["b", "f", "g", "h", "k", "l", "n", "m", "s", "sh", "t", "w"];
-var nm20 = ["k", "l", "m", "n", "r", "sh", "v", "y"];
-var nm21 = ["", "", "ph", "h", "ng", "n"];
-
-var nm22 = ["", "", "ch", "d", "j", "m", "r", "s", "sh", "t", "y", "z"];
-var nm23 = ["d", "g", "k", "m", "r", "z"];
-var nm24 = ["", "", "h", "k", "m", "n", "ng", "w"];
-var nm25 = ["", "", "ch", "h", "l", "m", "n", "s", "sh", "t", "y", "z"];
-var nm26 = ["k", "l", "rs", "s", "z"];
-var nm27 = ["", "", "ch", "h", "l", "m", "n", "s", "sh", "t", "y", "z"];
-
 function generator$pop_culture$avatar_last_airbenders(type) {
+	var nm1 = ["g", "h", "l", "m", "n", "gy", "p", "r", "s", "t"];
+	var nm2 = ["a", "e", "i", "o"];
+	var nm3 = ["h", "l", "ll", "m", "n", "ng", "nz", "r", "s", "sh", "ts"];
+	var nm4 = ["", "hn", "l", "ng", "n"];
+	var nm5 = ["", "h", "l", "n", "m", "p", "r", "s", "y"];
+	var nm6 = ["h", "l", "m", "ng", "n", "sh", "r", "rr"];
+	var nm7 = ["", "", "hn", "h", "n"];
+
+	var nm8 = ["h", "r", "s", "t", "v", "z"];
+	var nm9 = ["a", "i", "o"];
+	var nm10 = ["cc", "dd", "kk", "lr", "sr", "nr", "rr", "vr"];
+	var nm11 = ["", "", "ck", "k", "r", "m", "n", "s"];
+	var nm12 = ["h", "k", "r", "t", "v", "y", "z"];
+	var nm13 = ["a", "i", "o"];
+	var nm14 = ["h", "k", "l", "ll", "m", "n", "nn", "r", "rr", "s", "t"];
+
+	var nm15 = ["ch", "b", "f", "g", "h", "l", "m", "p", "r", "sh", "x"];
+	var nm16 = ["ao", "uo", "aa", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u"];
+	var nm17 = ["h", "l", "m", "n", "sh", "t"];
+	var nm18 = ["", "", "", "h", "ng", "n", "r"];
+	var nm19 = ["", "", "b", "f", "g", "h", "k", "l", "n", "m", "s", "sh", "t", "w"];
+	var nm19b = ["b", "f", "g", "h", "k", "l", "n", "m", "s", "sh", "t", "w"];
+	var nm20 = ["k", "l", "m", "n", "r", "sh", "v", "y"];
+	var nm21 = ["", "", "ph", "h", "ng", "n"];
+
+	var nm22 = ["", "", "ch", "d", "j", "m", "r", "s", "sh", "t", "y", "z"];
+	var nm23 = ["d", "g", "k", "m", "r", "z"];
+	var nm24 = ["", "", "h", "k", "m", "n", "ng", "w"];
+	var nm25 = ["", "", "ch", "h", "l", "m", "n", "s", "sh", "t", "y", "z"];
+	var nm26 = ["k", "l", "rs", "s", "z"];
+	var nm27 = ["", "", "ch", "h", "l", "m", "n", "s", "sh", "t", "y", "z"];
+
 
 	i = Math.floor(Math.random() * 12); {
 		if (type === 1) {

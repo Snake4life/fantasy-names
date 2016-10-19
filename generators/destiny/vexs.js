@@ -1,9 +1,9 @@
-var nm1 = ["", "", "", "", "c", "g", "h", "k", "n", "s", "t", "th", "z"];
-var nm2 = ["a", "e", "a", "e", "a", "e", "i", "o", "a", "e", "i", "o", "eo", "io", "y", "y", "ia", "ea"];
-var nm3 = ["d", "dh", "dr", "g", "gg", "gh", "gr", "k", "kh", "kk", "kr", "lg", "lk", "nk", "nr", "rg", "rk", "sk", "th", "tr"];
-var nm4 = ["m", "n", "s", "t", "x"];
-
 function generator$destiny$vexs() {
+	var nm1 = ["", "", "", "", "c", "g", "h", "k", "n", "s", "t", "th", "z"];
+	var nm2 = ["a", "e", "a", "e", "a", "e", "i", "o", "a", "e", "i", "o", "eo", "io", "y", "y", "ia", "ea"];
+	var nm3 = ["d", "dh", "dr", "g", "gg", "gh", "gr", "k", "kh", "kk", "kr", "lg", "lk", "nk", "nr", "rg", "rk", "sk", "th", "tr"];
+	var nm4 = ["m", "n", "s", "t", "x"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		rnd = Math.floor(Math.random() * nm1.length);

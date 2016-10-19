@@ -1,14 +1,14 @@
-var nm1 = ["", "", "b", "ch", "c", "d", "gr", "g", "k", "kr", "l", "m", "n", "p", "r", "t", "tr", "w"];
-var nm2 = ["a", "e", "i", "a", "e", "i", "a", "e", "i", "a", "e", "i", "ee", "oo", "aa", "y"];
-var nm3 = ["b", "ck", "d", "dr", "gr", "gl", "g", "k", "kk", "l", "ll", "m", "n", "pl", "rf", "rp", "rph", "rr", "st", "str"];
-var nm4 = ["", "", "", "", "", "", "c", "ck", "k", "l", "m", "n", "ng", "t"];
-var nm5 = ["", "", "b", "ch", "d", "f", "g", "gl", "gn", "k", "kn", "l", "m", "n", "p", "r", "t", "tr"];
-var nm6 = ["ck", "d", "gr", "gl", "gn", "k", "l", "ll", "m", "n", "p", "pr", "r", "rph", "rp", "rr", "s", "sh", "st", "t", "zz"];
-var nm7 = ["b", "d", "f", "g", "gr", "gl", "j", "k", "kr", "l", "m", "n", "r", "t", "tr", "w", "z"];
-var nm8 = ["dr", "dd", "gr", "k", "kk", "l", "ll", "lr", "m", "mr", "mn", "n", "nr", "nl", "nt", "r", "rr", "rl", "st", "str"];
-var nm9 = ["c", "ck", "k", "l", "m", "n", "ng", "t"];
-
 function generator$star_wars$ewoks(type) {
+	var nm1 = ["", "", "b", "ch", "c", "d", "gr", "g", "k", "kr", "l", "m", "n", "p", "r", "t", "tr", "w"];
+	var nm2 = ["a", "e", "i", "a", "e", "i", "a", "e", "i", "a", "e", "i", "ee", "oo", "aa", "y"];
+	var nm3 = ["b", "ck", "d", "dr", "gr", "gl", "g", "k", "kk", "l", "ll", "m", "n", "pl", "rf", "rp", "rph", "rr", "st", "str"];
+	var nm4 = ["", "", "", "", "", "", "c", "ck", "k", "l", "m", "n", "ng", "t"];
+	var nm5 = ["", "", "b", "ch", "d", "f", "g", "gl", "gn", "k", "kn", "l", "m", "n", "p", "r", "t", "tr"];
+	var nm6 = ["ck", "d", "gr", "gl", "gn", "k", "l", "ll", "m", "n", "p", "pr", "r", "rph", "rp", "rr", "s", "sh", "st", "t", "zz"];
+	var nm7 = ["b", "d", "f", "g", "gr", "gl", "j", "k", "kr", "l", "m", "n", "r", "t", "tr", "w", "z"];
+	var nm8 = ["dr", "dd", "gr", "k", "kk", "l", "ll", "lr", "m", "mr", "mn", "n", "nr", "nl", "nt", "r", "rr", "rl", "st", "str"];
+	var nm9 = ["c", "ck", "k", "l", "m", "n", "ng", "t"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		rnd6 = Math.floor(Math.random() * nm7.length);

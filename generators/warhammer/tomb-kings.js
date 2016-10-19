@@ -1,13 +1,13 @@
-var nm1 = ["", "", "", "", "ch", "f", "h", "k", "kh", "m", "n", "r", "s", "t", "th"];
-var nm2 = ["a", "e", "o", "a", "e", "o", "a", "e", "o", "a", "e", "o", "i", "i"];
-var nm3 = ["b", "ch", "f", "h", "k", "kh", "l", "m", "mh", "n", "p", "ph", "r", "s", "sh", "t", "th", "y", "b", "bd", "ch", "ct", "f", "h", "k", "kh", "kht", "kt", "l", "m", "mh", "mkh", "mt", "n", "nkh", "ns", "p", "ph", "phk", "phr", "pht", "pr", "pth", "r", "rkh", "rs", "rt", "s", "sf", "sh", "shk", "skh", "sph", "ss", "st", "t", "th", "tm", "tr", "ttr", "y"];
-var nm4 = ["", "", "f", "h", "kh", "m", "n", "nb", "p", "ph", "r", "rs", "s"];
-var nm5 = ["b", "h", "k", "kh", "m", "n", "p", "ph", "r", "s", "sh", "t", "th"];
-var nm6 = ["a", "e", "i", "a", "e", "i", "a", "e", "i", "a", "e", "i", "o", "o"];
-var nm7 = ["b", "d", "f", "fr", "g", "gt", "gh", "h", "k", "kh", "kt", "l", "m", "mkh", "mph", "n", "nkh", "nph", "nth", "nkhn", "ns", "nt", "p", "ph", "phr", "pth", "r", "rh", "rm", "rt", "ry", "s", "st", "t", "tr", "th", "thy", "y", "z", "zh"];
-var nm8 = ["Academic", "Acclaimed", "Adept", "Ambitious", "Ancient", "Architect", "Artist", "Austere", "Black", "Blessed", "Bright", "Brilliant", "Celebrated", "Chaste", "Composed", "Conjurer", "Content", "Crimson", "Cunning", "Devoted", "Diligent", "Earnest", "Educated", "Elegant", "Enchanted", "Enlightened", "Euphoric", "Exalted", "Flawless", "Generous", "Gifted", "Giving", "Glorious", "Graceful", "Grand", "Great", "Hallowed", "Herald", "Hierpohant", "Holy", "Honorable", "Honored", "Humble", "Idealist", "Illustrious", "Immortal", "Imperishable", "Incredible", "Infinite", "Knowing", "Learned", "Light", "Loyal", "Magnificent", "Majestic", "Marvelous", "Oracle", "Paragon", "Patient", "Powerful", "Prestigious", "Prime", "Prophet", "Soothsayer", "Sophisticated", "Terrific", "Treasure", "Treasured", "Valiant", "Visionary", "Watcher", "White", "Zealous"];
-
 function generator$warhammer$tomb_kings(type) {
+	var nm1 = ["", "", "", "", "ch", "f", "h", "k", "kh", "m", "n", "r", "s", "t", "th"];
+	var nm2 = ["a", "e", "o", "a", "e", "o", "a", "e", "o", "a", "e", "o", "i", "i"];
+	var nm3 = ["b", "ch", "f", "h", "k", "kh", "l", "m", "mh", "n", "p", "ph", "r", "s", "sh", "t", "th", "y", "b", "bd", "ch", "ct", "f", "h", "k", "kh", "kht", "kt", "l", "m", "mh", "mkh", "mt", "n", "nkh", "ns", "p", "ph", "phk", "phr", "pht", "pr", "pth", "r", "rkh", "rs", "rt", "s", "sf", "sh", "shk", "skh", "sph", "ss", "st", "t", "th", "tm", "tr", "ttr", "y"];
+	var nm4 = ["", "", "f", "h", "kh", "m", "n", "nb", "p", "ph", "r", "rs", "s"];
+	var nm5 = ["b", "h", "k", "kh", "m", "n", "p", "ph", "r", "s", "sh", "t", "th"];
+	var nm6 = ["a", "e", "i", "a", "e", "i", "a", "e", "i", "a", "e", "i", "o", "o"];
+	var nm7 = ["b", "d", "f", "fr", "g", "gt", "gh", "h", "k", "kh", "kt", "l", "m", "mkh", "mph", "n", "nkh", "nph", "nth", "nkhn", "ns", "nt", "p", "ph", "phr", "pth", "r", "rh", "rm", "rt", "ry", "s", "st", "t", "tr", "th", "thy", "y", "z", "zh"];
+	var nm8 = ["Academic", "Acclaimed", "Adept", "Ambitious", "Ancient", "Architect", "Artist", "Austere", "Black", "Blessed", "Bright", "Brilliant", "Celebrated", "Chaste", "Composed", "Conjurer", "Content", "Crimson", "Cunning", "Devoted", "Diligent", "Earnest", "Educated", "Elegant", "Enchanted", "Enlightened", "Euphoric", "Exalted", "Flawless", "Generous", "Gifted", "Giving", "Glorious", "Graceful", "Grand", "Great", "Hallowed", "Herald", "Hierpohant", "Holy", "Honorable", "Honored", "Humble", "Idealist", "Illustrious", "Immortal", "Imperishable", "Incredible", "Infinite", "Knowing", "Learned", "Light", "Loyal", "Magnificent", "Majestic", "Marvelous", "Oracle", "Paragon", "Patient", "Powerful", "Prestigious", "Prime", "Prophet", "Soothsayer", "Sophisticated", "Terrific", "Treasure", "Treasured", "Valiant", "Visionary", "Watcher", "White", "Zealous"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		rnd = Math.floor(Math.random() * nm8.length);

@@ -1,11 +1,11 @@
-var names1 = ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z", "br", "cr", "dr", "gr", "kr", "pr", "tr", "vr", "wr", "str", "bl", "cl", "fl", "gl", "kl", "pl", "sl", "vl", "ch", "ph", "sh", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
-var names2 = ["a", "e", "i", "o", "u", "eu", "eo", "ea", "ei", "ai", "au", "ae", "io", "ia", "iu", "ua"];
-var names3 = ["b", "c", "d", "f", "g", "h", "k", "l", "m", "n", "p", "q", "r", "s", "t", "w", "y", "z", "br", "cr", "dr", "gr", "kr", "tr", "vr", "wr", "str", "bl", "cl", "pl", "sl", "ch", "ph", "sh"];
-var names4 = ["b", "c", "d", "f", "g", "h", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z", "br", "cr", "dr", "gr", "kr", "pr", "tr", "str", "ph", "sh"];
-var names5 = ["aes", "ai", "all", "an", "and", "ane", "ari", "as", "ath", "ax", "ea", "ela", "en", "end", "eon", "era", "eron", "es", "esh", "eth", "ia", "ias", "ica", "in", "ios", "ira", "is", "ish", "ith", "ix", "oa", "on", "one", "or", "ora", "oris", "os", "oth", "ox", "oya", "uan", "uin", "ul", "un", "une", "ura", "us", "ush", "uth", "ux"];
-var names6 = ["a", "e", "i", "o", "u"];
-
 function generator$places$continents() {
+	var names1 = ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z", "br", "cr", "dr", "gr", "kr", "pr", "tr", "vr", "wr", "str", "bl", "cl", "fl", "gl", "kl", "pl", "sl", "vl", "ch", "ph", "sh", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
+	var names2 = ["a", "e", "i", "o", "u", "eu", "eo", "ea", "ei", "ai", "au", "ae", "io", "ia", "iu", "ua"];
+	var names3 = ["b", "c", "d", "f", "g", "h", "k", "l", "m", "n", "p", "q", "r", "s", "t", "w", "y", "z", "br", "cr", "dr", "gr", "kr", "tr", "vr", "wr", "str", "bl", "cl", "pl", "sl", "ch", "ph", "sh"];
+	var names4 = ["b", "c", "d", "f", "g", "h", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z", "br", "cr", "dr", "gr", "kr", "pr", "tr", "str", "ph", "sh"];
+	var names5 = ["aes", "ai", "all", "an", "and", "ane", "ari", "as", "ath", "ax", "ea", "ela", "en", "end", "eon", "era", "eron", "es", "esh", "eth", "ia", "ias", "ica", "in", "ios", "ira", "is", "ish", "ith", "ix", "oa", "on", "one", "or", "ora", "oris", "os", "oth", "ox", "oya", "uan", "uin", "ul", "un", "une", "ura", "us", "ush", "uth", "ux"];
+	var names6 = ["a", "e", "i", "o", "u"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		if (i < 3) {

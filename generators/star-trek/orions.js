@@ -1,17 +1,17 @@
-var nm1 = ["D", "G", "H", "J", "L", "M", "N", "Ng", "R", "T", "Th", "V"];
-var nm2 = ["a", "i", "e", "o", "a", "ai", "ou", "aa", "a", "e", "i", "o"];
-var nm3 = ["g", "gg", "k", "kk", "l", "ll", "m", "mm", "r", "rr", "sr", "ss", "t", "tt", "yc", "z", "zz"];
-var nm4 = ["a", "e", "i", "o", "u"];
-var nm5 = ["d", "h", "k", "l", "m", "n", "r", "rc", "v", "z", ""];
-
-var nm6 = ["D", "G", "H", "J", "L", "M", "N", "S", "Sh", "T", "Th", "V", "Zh"];
-var nm7 = ["a", "e", "i", "ee", "ai", "ay", "a", "e", "i", "a", "e", "i"];
-var nm8 = ["d", "dd", "g", "gg", "hn", "l", "ll", "n", "nn", "r", "rr", "rt", "s", "ss", "sh", "shk", "v", "vn", "vv"];
-var nm9 = ["a", "e", "i", "o", "u", "aa", "ou"];
-var nm10 = ["r", "s", "sh", "ss", "", "", "", "", "", "", "", "", "", "", ""];
-var nm11 = ["hn", "l", "ll", "n", "nn", "s", "ss", "sh", "v"];
-
 function generator$star_trek$orions(type) {
+	var nm1 = ["D", "G", "H", "J", "L", "M", "N", "Ng", "R", "T", "Th", "V"];
+	var nm2 = ["a", "i", "e", "o", "a", "ai", "ou", "aa", "a", "e", "i", "o"];
+	var nm3 = ["g", "gg", "k", "kk", "l", "ll", "m", "mm", "r", "rr", "sr", "ss", "t", "tt", "yc", "z", "zz"];
+	var nm4 = ["a", "e", "i", "o", "u"];
+	var nm5 = ["d", "h", "k", "l", "m", "n", "r", "rc", "v", "z", ""];
+
+	var nm6 = ["D", "G", "H", "J", "L", "M", "N", "S", "Sh", "T", "Th", "V", "Zh"];
+	var nm7 = ["a", "e", "i", "ee", "ai", "ay", "a", "e", "i", "a", "e", "i"];
+	var nm8 = ["d", "dd", "g", "gg", "hn", "l", "ll", "n", "nn", "r", "rr", "rt", "s", "ss", "sh", "shk", "v", "vn", "vv"];
+	var nm9 = ["a", "e", "i", "o", "u", "aa", "ou"];
+	var nm10 = ["r", "s", "sh", "ss", "", "", "", "", "", "", "", "", "", "", ""];
+	var nm11 = ["hn", "l", "ll", "n", "nn", "s", "ss", "sh", "v"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		if (type === 1) {

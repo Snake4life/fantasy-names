@@ -1,12 +1,12 @@
-var nm1 = ["c", "ch", "cr", "g", "gh", "gr", "gn", "k", "kr", "kn", "r", "sk", "sc", "sm", "sn", "st", "str", "skr", "t", "tr", "z", "zr"];
-var nm2 = ["a", "i", "o", "a", "i", "o", "a", "i", "o", "e", "u"];
-var nm3 = ["c", "cc", "cl", "cr", "cn", "gl", "gr", "gn", "gg", "g", "gd", "gdr", "gs", "gt", "gtr", "k", "kk", "kt", "kr", "ktr", "ks", "kz", "kv", "ng", "nz", "nr", "nk", "nkz", "nks", "rc", "rk", "rg", "rgr", "rkr", "rs", "rsn", "rsm", "rz", "rt", "rtr", "rsl", "sn", "str", "sk", "sc", "str", "skr", "sz", "tr", "tkr", "tn", "tv", "vr", "vl"];
-var nm4 = ["", "", "", "", "c", "k", "n", "m", "mm", "r", "rr", "rk", "s", "sk", "sz", "x", "z"];
-var nm5 = ["c", "ch", "d", "g", "gh", "k", "kh", "r", "sr", "sc", "sk", "sn", "sl", "t", "th", "tr", "v", "x", "z"];
-var nm6 = ["i", "a", "i", "a", "i", "a", "i", "a", "e", "e", "e", "o", "u"];
-var nm7 = ["c", "ch", "cc", "g", "gg", "gr", "gtr", "gn", "gz", "k", "kr", "kz", "kt", "l", "ll", "lc", "lk", "lz", "lg", "n", "nn", "nr", "nt", "nk", "r", "rr", "rl", "rk", "rn", "rm", "t", "tt", "th", "tr", "tz", "tzr", "tsr", "tg", "v", "vr", "z", "zr", "zz", "zg", "zk", "zn"];
-
 function generator$warhammer$goblins(type) {
+	var nm1 = ["c", "ch", "cr", "g", "gh", "gr", "gn", "k", "kr", "kn", "r", "sk", "sc", "sm", "sn", "st", "str", "skr", "t", "tr", "z", "zr"];
+	var nm2 = ["a", "i", "o", "a", "i", "o", "a", "i", "o", "e", "u"];
+	var nm3 = ["c", "cc", "cl", "cr", "cn", "gl", "gr", "gn", "gg", "g", "gd", "gdr", "gs", "gt", "gtr", "k", "kk", "kt", "kr", "ktr", "ks", "kz", "kv", "ng", "nz", "nr", "nk", "nkz", "nks", "rc", "rk", "rg", "rgr", "rkr", "rs", "rsn", "rsm", "rz", "rt", "rtr", "rsl", "sn", "str", "sk", "sc", "str", "skr", "sz", "tr", "tkr", "tn", "tv", "vr", "vl"];
+	var nm4 = ["", "", "", "", "c", "k", "n", "m", "mm", "r", "rr", "rk", "s", "sk", "sz", "x", "z"];
+	var nm5 = ["c", "ch", "d", "g", "gh", "k", "kh", "r", "sr", "sc", "sk", "sn", "sl", "t", "th", "tr", "v", "x", "z"];
+	var nm6 = ["i", "a", "i", "a", "i", "a", "i", "a", "e", "e", "e", "o", "u"];
+	var nm7 = ["c", "ch", "cc", "g", "gg", "gr", "gtr", "gn", "gz", "k", "kr", "kz", "kt", "l", "ll", "lc", "lk", "lz", "lg", "n", "nn", "nr", "nt", "nk", "r", "rr", "rl", "rk", "rn", "rm", "t", "tt", "th", "tr", "tz", "tzr", "tsr", "tg", "v", "vr", "z", "zr", "zz", "zg", "zk", "zn"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		if (type === 1) {

@@ -1,17 +1,17 @@
-var nm1 = ["", "", "", "", "c", "g", "j", "k", "q", "r", "v", "x", "z"];
-var nm2 = ["a", "a", "u", "u", "e", "i", "a", "a", "u", "u", "e", "i", "a", "a", "u", "u", "e", "i", "oo", "ou", "uu", "aa"];
-var nm3 = ["d", "dr", "g", "gd", "gr", "h", "j", "ldr", "lgr", "ndr", "ngr", "q", "r", "rg", "rj", "sg", "v", "vg", "x", "z", "zg"];
-var nm4 = ["c", "ch", "g", "l", "n", "x", "z"];
-var nm5 = ["f", "l", "m", "n", "p", "ph", "s", "t", "th", "v", "z"];
-var nm6 = ["e", "e", "a", "a", "i", "o", "e", "e", "a", "a", "i", "o", "e", "e", "a", "a", "i", "o", "ia", "ua", "ea", "aa"];
-var nm7 = ["l", "lm", "ln", "lr", "m", "mm", "mn", "n", "nn", "r", "rh", "rl", "rm", "rn", "rr", "rt", "sr", "ss", "tr", "x", "y", "z"];
-var nm8 = ["f", "n", "nn", "ph", "s", "ss", "sh", "x"];
-var nm9 = ["c", "g", "j", "m", "q", "s", "th", "v", "x", "z"];
-var nm10 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "aa"];
-var nm11 = ["d", "f", "h", "j", "k", "l", "m", "n", "q", "r", "sh", "v", "z"];
-var nm12 = ["hl", "hn", "j", "l", "m", "n", "nj", "s", "sh", "v"];
-
 function generator$destiny$awokens(type) {
+	var nm1 = ["", "", "", "", "c", "g", "j", "k", "q", "r", "v", "x", "z"];
+	var nm2 = ["a", "a", "u", "u", "e", "i", "a", "a", "u", "u", "e", "i", "a", "a", "u", "u", "e", "i", "oo", "ou", "uu", "aa"];
+	var nm3 = ["d", "dr", "g", "gd", "gr", "h", "j", "ldr", "lgr", "ndr", "ngr", "q", "r", "rg", "rj", "sg", "v", "vg", "x", "z", "zg"];
+	var nm4 = ["c", "ch", "g", "l", "n", "x", "z"];
+	var nm5 = ["f", "l", "m", "n", "p", "ph", "s", "t", "th", "v", "z"];
+	var nm6 = ["e", "e", "a", "a", "i", "o", "e", "e", "a", "a", "i", "o", "e", "e", "a", "a", "i", "o", "ia", "ua", "ea", "aa"];
+	var nm7 = ["l", "lm", "ln", "lr", "m", "mm", "mn", "n", "nn", "r", "rh", "rl", "rm", "rn", "rr", "rt", "sr", "ss", "tr", "x", "y", "z"];
+	var nm8 = ["f", "n", "nn", "ph", "s", "ss", "sh", "x"];
+	var nm9 = ["c", "g", "j", "m", "q", "s", "th", "v", "x", "z"];
+	var nm10 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "aa"];
+	var nm11 = ["d", "f", "h", "j", "k", "l", "m", "n", "q", "r", "sh", "v", "z"];
+	var nm12 = ["hl", "hn", "j", "l", "m", "n", "nj", "s", "sh", "v"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		rndA = Math.floor(Math.random() * nm9.length);

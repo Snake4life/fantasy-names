@@ -1,16 +1,16 @@
-var nm1 = ["B", "Bh", "D", "J", "M", "S", "T", "X", "Xh", "Z", "Zh"];
-var nm2 = ["a", "o", "a"];
-var nm3 = ["b", "bh", "dh", "l", "lth", "ll", "lh", "n", "nt", "qu", "r", "rr"];
-var nm4 = ["r", "l", "", "r", "l", "s"];
-var nm5 = ["Ch", "H", "J", "L", "M", "N", "R", "S", "T", "X", "Xh", "Z", "Zh"];
-var nm6 = ["dh", "l", "ll", "lh", "n", "nd", "nt", "r", "rr", "t", "s", "z"];
-var nm7 = ["Ch", "D", "Q", "Qh", "R", "Rh", "S", "T", "X", "Xh", "Z", "Zh"];
-var nm8 = ["a", "o", "a", "aa"];
-var nm9 = ["", "", "qu", "d", "l", "m", "n", "q", "r", "s", "x"];
-var nm10 = ["", "a", "o", "a"];
-var nm11 = ["", "", "", "n", "q", "s"];
-
 function generator$game_of_thrones$summer_islanders(type) {
+	var nm1 = ["B", "Bh", "D", "J", "M", "S", "T", "X", "Xh", "Z", "Zh"];
+	var nm2 = ["a", "o", "a"];
+	var nm3 = ["b", "bh", "dh", "l", "lth", "ll", "lh", "n", "nt", "qu", "r", "rr"];
+	var nm4 = ["r", "l", "", "r", "l", "s"];
+	var nm5 = ["Ch", "H", "J", "L", "M", "N", "R", "S", "T", "X", "Xh", "Z", "Zh"];
+	var nm6 = ["dh", "l", "ll", "lh", "n", "nd", "nt", "r", "rr", "t", "s", "z"];
+	var nm7 = ["Ch", "D", "Q", "Qh", "R", "Rh", "S", "T", "X", "Xh", "Z", "Zh"];
+	var nm8 = ["a", "o", "a", "aa"];
+	var nm9 = ["", "", "qu", "d", "l", "m", "n", "q", "r", "s", "x"];
+	var nm10 = ["", "a", "o", "a"];
+	var nm11 = ["", "", "", "n", "q", "s"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		rnd2 = Math.floor(Math.random() * nm2.length);

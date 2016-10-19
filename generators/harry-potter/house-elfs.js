@@ -1,13 +1,13 @@
-var nm1 = ["B", "C", "D", "F", "G", "H", "J", "K", "L", "M", "N", "P", "R", "S", "T", "V", "W", "Z"];
-var nm2 = ["oo", "a", "o"];
-var nm3 = ["", "d", "n", "r", "l", "b", "k"];
-var nm4 = ["b", "d", "k", "p", "r"];
-var nm5 = ["y", "ey"];
-var nm6 = ["ee", "i", "o"];
-var nm7 = ["", "n", "s", "l", "b", "m", "p"];
-var nm8 = ["k", "n", "s", "l", "m", "p"];
-
 function generator$harry_potter$house_elfs(type) {
+	var nm1 = ["B", "C", "D", "F", "G", "H", "J", "K", "L", "M", "N", "P", "R", "S", "T", "V", "W", "Z"];
+	var nm2 = ["oo", "a", "o"];
+	var nm3 = ["", "d", "n", "r", "l", "b", "k"];
+	var nm4 = ["b", "d", "k", "p", "r"];
+	var nm5 = ["y", "ey"];
+	var nm6 = ["ee", "i", "o"];
+	var nm7 = ["", "n", "s", "l", "b", "m", "p"];
+	var nm8 = ["k", "n", "s", "l", "m", "p"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		if (type === 1) {

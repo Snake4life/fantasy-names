@@ -1,14 +1,14 @@
-var nm1 = ["", "", "", "", "b", "c", "d", "f", "g", "gl", "gr", "k", "l", "n", "r", "s", "sr", "shr", "t", "th", "v"];
-var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ae", "io", "ui", "ua", "au"];
-var nm3 = ["b", "d", "g", "k", "ln", "l", "lg", "lm", "m", "md", "n", "nd", "r", "rm", "rn"];
-var nm4 = ["c", "d", "dr", "gr", "k", "kr", "lfr", "ldr", "m", "n", "ngr", "r", "rn", "th"];
-
-var nm5 = ["", "", "", "", "c", "d", "f", "gl", "h", "j", "l", "m", "n", "ph", "r", "sh", "s", "th", "v"];
-var nm6 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ae", "io", "ei", "ea", "au"];
-var nm7 = ["d", "g", "l", "lm", "ln", "m", "mn", "n", "nv", "ph", "r", "rn", "rv", "th", "v"];
-var nm8 = ["", "", "", "", "", "", "", "", "", "", "", "h", "l", "n", "s", "sh", "th"];
-
 function generator$inheritance_cycle$dragons(type) {
+	var nm1 = ["", "", "", "", "b", "c", "d", "f", "g", "gl", "gr", "k", "l", "n", "r", "s", "sr", "shr", "t", "th", "v"];
+	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ae", "io", "ui", "ua", "au"];
+	var nm3 = ["b", "d", "g", "k", "ln", "l", "lg", "lm", "m", "md", "n", "nd", "r", "rm", "rn"];
+	var nm4 = ["c", "d", "dr", "gr", "k", "kr", "lfr", "ldr", "m", "n", "ngr", "r", "rn", "th"];
+
+	var nm5 = ["", "", "", "", "c", "d", "f", "gl", "h", "j", "l", "m", "n", "ph", "r", "sh", "s", "th", "v"];
+	var nm6 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ae", "io", "ei", "ea", "au"];
+	var nm7 = ["d", "g", "l", "lm", "ln", "m", "mn", "n", "nv", "ph", "r", "rn", "rv", "th", "v"];
+	var nm8 = ["", "", "", "", "", "", "", "", "", "", "", "h", "l", "n", "s", "sh", "th"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		if (type === 1) {

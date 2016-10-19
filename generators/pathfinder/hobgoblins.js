@@ -1,12 +1,12 @@
-var nm1 = ["", "", "", "b", "d", "dr", "f", "g", "gr", "h", "k", "kr", "m", "n", "p", "pr", "r", "s", "t", "z"];
-var nm2 = ["a", "e", "i", "o", "u"];
-var nm3 = ["d", "dr", "gl", "gr", "gt", "gh", "kr", "kt", "kh", "kl", "l", "lgr", "lt", "ld", "ldr", "lg", "lb", "lbr", "ll", "r", "rg", "rd", "rt", "rdr", "rgr", "rk", "rl", "th", "tt", "tr", "thr", "vl", "vr", "vt"];
-var nm4 = ["", "d", "g", "k", "m", "n", "ng", "r", "t"];
-var nm5 = ["", "", "", "", "b", "c", "d", "f", "h", "k", "m", "n", "ph", "r", "s", "t", "v", "w", "z"];
-var nm7 = ["cl", "cn", "cm", "cd", "f", "ff", "fn", "fm", "fl", "kl", "kr", "kn", "km", "kd", "kt", "ks", "l", "lz", "ln", "lm", "ld", "lg", "m", "mz", "ms", "mr", "md", "mg", "mk", "n", "ns", "nd", "nr", "ng", "ns", "nk", "r", "rm", "rg", "rn", "rd", "rk", "s", "sm", "st", "ss", "sz", "sm", "sn", "sd", "sg", "th", "tr", "tn", "tz", "ts", "yd", "yn", "yg", "yk", "yr", "yz"];
-var nm8 = ["", "", "", "", "", "", "", "", "", "", "f", "h", "l", "m", "n", "s", "t"];
-
 function generator$pathfinder$hobgoblins(type) {
+	var nm1 = ["", "", "", "b", "d", "dr", "f", "g", "gr", "h", "k", "kr", "m", "n", "p", "pr", "r", "s", "t", "z"];
+	var nm2 = ["a", "e", "i", "o", "u"];
+	var nm3 = ["d", "dr", "gl", "gr", "gt", "gh", "kr", "kt", "kh", "kl", "l", "lgr", "lt", "ld", "ldr", "lg", "lb", "lbr", "ll", "r", "rg", "rd", "rt", "rdr", "rgr", "rk", "rl", "th", "tt", "tr", "thr", "vl", "vr", "vt"];
+	var nm4 = ["", "d", "g", "k", "m", "n", "ng", "r", "t"];
+	var nm5 = ["", "", "", "", "b", "c", "d", "f", "h", "k", "m", "n", "ph", "r", "s", "t", "v", "w", "z"];
+	var nm7 = ["cl", "cn", "cm", "cd", "f", "ff", "fn", "fm", "fl", "kl", "kr", "kn", "km", "kd", "kt", "ks", "l", "lz", "ln", "lm", "ld", "lg", "m", "mz", "ms", "mr", "md", "mg", "mk", "n", "ns", "nd", "nr", "ng", "ns", "nk", "r", "rm", "rg", "rn", "rd", "rk", "s", "sm", "st", "ss", "sz", "sm", "sn", "sd", "sg", "th", "tr", "tn", "tz", "ts", "yd", "yn", "yg", "yk", "yr", "yz"];
+	var nm8 = ["", "", "", "", "", "", "", "", "", "", "f", "h", "l", "m", "n", "s", "t"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		if (type === 1) {

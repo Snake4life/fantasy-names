@@ -1,9 +1,9 @@
-var nm1 = ["b", "d", "f", "g", "h", "k", "l", "m", "n", "p", "r", "s", "t", "w", "x", "y", "", "", "", "", "", "", "", "", ""];
-var nm2 = ["a", "e", "u", "i", "o"];
-var nm3 = ["b", "d", "f", "g", "h", "k", "l", "m", "n", "p", "r", "s", "t", "w", "x", "y"];
-var nm4 = ["b", "d", "f", "g", "h", "k", "l", "m", "n", "p", "r", "s", "t", "w", "x", "y", "b", "d", "f", "g", "h", "k", "l", "m", "n", "p", "r", "s", "t", "w", "x", "y", "bn", "dn", "fn", "gn", "kn", "pn", "sn", "tn", "bm", "dm", "fm", "gm", "km", "pm", "sm", "tm", "bk", "dk", "lk", "mk", "nk", "pk", "sk", "tk", "bl", "fl", "gl", "pl", "tl", "xl", "sl", "bd", "gd", "fd", "ld", "pd", "sd", "xd", "bb", "dd", "ff", "gg", "kk", "ll", "mm", "nn", "pp", "rr", "ss", "tt", "ww", "br", "dr", "gr", "fr", "kr", "pr", "tr", "xr"];
-
 function generator$halo$mgalekgolos() {
+	var nm1 = ["b", "d", "f", "g", "h", "k", "l", "m", "n", "p", "r", "s", "t", "w", "x", "y", "", "", "", "", "", "", "", "", ""];
+	var nm2 = ["a", "e", "u", "i", "o"];
+	var nm3 = ["b", "d", "f", "g", "h", "k", "l", "m", "n", "p", "r", "s", "t", "w", "x", "y"];
+	var nm4 = ["b", "d", "f", "g", "h", "k", "l", "m", "n", "p", "r", "s", "t", "w", "x", "y", "b", "d", "f", "g", "h", "k", "l", "m", "n", "p", "r", "s", "t", "w", "x", "y", "bn", "dn", "fn", "gn", "kn", "pn", "sn", "tn", "bm", "dm", "fm", "gm", "km", "pm", "sm", "tm", "bk", "dk", "lk", "mk", "nk", "pk", "sk", "tk", "bl", "fl", "gl", "pl", "tl", "xl", "sl", "bd", "gd", "fd", "ld", "pd", "sd", "xd", "bb", "dd", "ff", "gg", "kk", "ll", "mm", "nn", "pp", "rr", "ss", "tt", "ww", "br", "dr", "gr", "fr", "kr", "pr", "tr", "xr"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		rnd = Math.floor(Math.random() * nm1.length);

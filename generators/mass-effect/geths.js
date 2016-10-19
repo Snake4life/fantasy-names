@@ -1,8 +1,8 @@
-var names1 = ["Unit", "Platform", "Mod", "System", "SysMod", "GU", "G-Unit", "Geth-Unit", "Module"];
-var names3 = ["a", "b", "c", "e", "s", "x"];
-var names4 = ["Armada", "Batallion", "Alpha", "Omega", "Myriad", "Sundry", "Horde", "Brigade", "Phalanx", "Host", "Enigma", "Terminus", "Prophet", "Genesis", "Dawn", "Oracle", "Anomaly", "Centurion", "Obelisk", "Pinnacle", "Goliath", "Apex", "Vortex", "Vertex", "Armageddon", "Oblivion", "Eternity", "Daemon", "Demise", "Destiny"];
-
 function generator$mass_effect$geths() {
+	var names1 = ["Unit", "Platform", "Mod", "System", "SysMod", "GU", "G-Unit", "Geth-Unit", "Module"];
+	var names3 = ["a", "b", "c", "e", "s", "x"];
+	var names4 = ["Armada", "Batallion", "Alpha", "Omega", "Myriad", "Sundry", "Horde", "Brigade", "Phalanx", "Host", "Enigma", "Terminus", "Prophet", "Genesis", "Dawn", "Oracle", "Anomaly", "Centurion", "Obelisk", "Pinnacle", "Goliath", "Apex", "Vortex", "Vertex", "Armageddon", "Oblivion", "Eternity", "Daemon", "Demise", "Destiny"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		if (i < 6) {

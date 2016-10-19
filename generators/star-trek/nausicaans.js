@@ -1,11 +1,11 @@
-var nm1 = ["", "", "b", "ch", "d", "dg", "gh", "g", "gr", "h", "j", "k", "kl", "lh", "l", "m", "n", "p", "r", "s", "sh", "st", "t", "th", "tl", "tr", "v", "x", "y", "z"];
-var nm2 = ["ae", "ee", "ei", "ou", "uu", "a", "e", "i", "o", "u"];
-var nm3 = ["bz", "ch", "d", "g", "ggr", "gv", "h", "j", "jh", "l", "lth", "lrsh", "k", "kz", "kkz", "ktz", "m", "mmk", "n", "p", "r", "rt", "rg", "rc", "sh", "th", "t", "tz", "v", "y", "yk", "z", "zj", "zzg", "d", "g", "h", "j", "l", "k", "m", "n", "p", "r", "t", "v", "y", "z"];
-var nm4 = ["", "", "c", "chk", "rdz", "g", "jz", "k", "m", "n", "ng", "p", "r", "rr", "rrg", "sh", "t", "th", "tz", "tkz", "x", "z"];
-var nm5 = ["c", "chk", "rdz", "g", "jz", "k", "m", "n", "ng", "p", "r", "rr", "rrg", "sh", "t", "th", "tz", "tkz", "x", "z"];
-var nm6 = ["", "", "", "a", "e", "i", "o", "u"];
-
 function generator$star_trek$nausicaans(type) {
+	var nm1 = ["", "", "b", "ch", "d", "dg", "gh", "g", "gr", "h", "j", "k", "kl", "lh", "l", "m", "n", "p", "r", "s", "sh", "st", "t", "th", "tl", "tr", "v", "x", "y", "z"];
+	var nm2 = ["ae", "ee", "ei", "ou", "uu", "a", "e", "i", "o", "u"];
+	var nm3 = ["bz", "ch", "d", "g", "ggr", "gv", "h", "j", "jh", "l", "lth", "lrsh", "k", "kz", "kkz", "ktz", "m", "mmk", "n", "p", "r", "rt", "rg", "rc", "sh", "th", "t", "tz", "v", "y", "yk", "z", "zj", "zzg", "d", "g", "h", "j", "l", "k", "m", "n", "p", "r", "t", "v", "y", "z"];
+	var nm4 = ["", "", "c", "chk", "rdz", "g", "jz", "k", "m", "n", "ng", "p", "r", "rr", "rrg", "sh", "t", "th", "tz", "tkz", "x", "z"];
+	var nm5 = ["c", "chk", "rdz", "g", "jz", "k", "m", "n", "ng", "p", "r", "rr", "rrg", "sh", "t", "th", "tz", "tkz", "x", "z"];
+	var nm6 = ["", "", "", "a", "e", "i", "o", "u"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		if (i < 5) {

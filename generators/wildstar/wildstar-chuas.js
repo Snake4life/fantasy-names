@@ -1,12 +1,12 @@
-var nm1 = ["b", "d", "f", "g", "j", "m", "n", "r", "sh", "t", "th", "v", "x", "z"];
-var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ao", "oa", "ia", "ee", "ua"];
-var nm3 = ["br", "bn", "dr", "dh", "dg", "dz", "fr", "ff", "g", "gn", "gg", "gz", "gh", "j", "k", "kn", "kv", "kt", "kv", "kz", "lk", "lv", "lg", "ll", "n", "nn", "nk", "np", "nt", "nv", "m", "mm", "mk", "pp", "rr", "rg", "rsr", "rs", "rt", "rv", "rk", "sk", "ss", "sz", "sn", "sm", "t", "tt", "tk", "v", "vn"];
-var nm4 = ["", "", "", "", "", "", "", "c", "h", "l", "ll", "n", "nn", "r", "rr", "s", "ss", "sh", "t", "th", "w", "x", "zz"];
-var nm5 = ["b", "br", "d", "dr", "f", "fr", "g", "gn", "gr", "j", "m", "n", "r", "s", "sh", "st", "t", "th", "tr", "v", "vr", "z"];
-var nm6 = ["a", "e", "i", "o", "u"];
-var nm7 = ["", "", "", "", "", "", "", "c", "f", "h", "l", "ll", "m", "ms", "n", "ns", "nn", "r", "rr", "s", "ss", "sh", "t", "th", "x", "zz"];
-
 function generator$wildstar$wildstar_chuas(type) {
+	var nm1 = ["b", "d", "f", "g", "j", "m", "n", "r", "sh", "t", "th", "v", "x", "z"];
+	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ao", "oa", "ia", "ee", "ua"];
+	var nm3 = ["br", "bn", "dr", "dh", "dg", "dz", "fr", "ff", "g", "gn", "gg", "gz", "gh", "j", "k", "kn", "kv", "kt", "kv", "kz", "lk", "lv", "lg", "ll", "n", "nn", "nk", "np", "nt", "nv", "m", "mm", "mk", "pp", "rr", "rg", "rsr", "rs", "rt", "rv", "rk", "sk", "ss", "sz", "sn", "sm", "t", "tt", "tk", "v", "vn"];
+	var nm4 = ["", "", "", "", "", "", "", "c", "h", "l", "ll", "n", "nn", "r", "rr", "s", "ss", "sh", "t", "th", "w", "x", "zz"];
+	var nm5 = ["b", "br", "d", "dr", "f", "fr", "g", "gn", "gr", "j", "m", "n", "r", "s", "sh", "st", "t", "th", "tr", "v", "vr", "z"];
+	var nm6 = ["a", "e", "i", "o", "u"];
+	var nm7 = ["", "", "", "", "", "", "", "c", "f", "h", "l", "ll", "m", "ms", "n", "ns", "nn", "r", "rr", "s", "ss", "sh", "t", "th", "x", "zz"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		rnd = Math.floor(Math.random() * nm5.length);

@@ -1,17 +1,17 @@
-var nm1 = ["b", "ch", "c", "d", "h", "j", "k", "l", "m", "n", "p", "r", "s", "t", "th", "v", "vr", "x", "", ""];
-var nm2 = ["a", "e", "i", "o", "u"];
-var nm3 = ["b", "c", "chr", "j", "k", "l", "j", "k", "l", "lm", "ld", "m", "m", "ns", "nd", "ncl", "r", "r", "rr", "t", "t", "v"];
-var nm4 = ["a", "e", "i", "o", "u", "ai", "ee", "iu"];
-var nm5 = ["", "b", "hk", "k", "l", "m", "n", "r", "s", "t", "th", "x"];
-var nm6 = ["", "a", "e", "o", "", "", "", "", "", "", "", "", "", ""];
-
-var nm7 = ["b", "c", "d", "h", "k", "l", "m", "n", "p", "r", "s", "t", "th", "v"];
-var nm8 = ["h", "k", "l", "ll", "m", "n", "r", "rr", "t", "tr", "th", "v"];
-var nm9 = ["a", "e", "i", "o", "u", "au", "ee"];
-var nm10 = ["", "k", "l", "m", "n", "s", "th"];
-var nm11 = ["", "a", "a"];
-
 function generator$star_trek$romulans(type) {
+	var nm1 = ["b", "ch", "c", "d", "h", "j", "k", "l", "m", "n", "p", "r", "s", "t", "th", "v", "vr", "x", "", ""];
+	var nm2 = ["a", "e", "i", "o", "u"];
+	var nm3 = ["b", "c", "chr", "j", "k", "l", "j", "k", "l", "lm", "ld", "m", "m", "ns", "nd", "ncl", "r", "r", "rr", "t", "t", "v"];
+	var nm4 = ["a", "e", "i", "o", "u", "ai", "ee", "iu"];
+	var nm5 = ["", "b", "hk", "k", "l", "m", "n", "r", "s", "t", "th", "x"];
+	var nm6 = ["", "a", "e", "o", "", "", "", "", "", "", "", "", "", ""];
+
+	var nm7 = ["b", "c", "d", "h", "k", "l", "m", "n", "p", "r", "s", "t", "th", "v"];
+	var nm8 = ["h", "k", "l", "ll", "m", "n", "r", "rr", "t", "tr", "th", "v"];
+	var nm9 = ["a", "e", "i", "o", "u", "au", "ee"];
+	var nm10 = ["", "k", "l", "m", "n", "s", "th"];
+	var nm11 = ["", "a", "a"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		if (type === 1) {

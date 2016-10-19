@@ -1,15 +1,15 @@
-var nm1 = ["", "", "", "b", "d", "g", "h", "k", "m", "n", "r", "s", "v", "z"];
-var nm2 = ["a", "e", "i", "o", "u"];
-var nm3 = ["ct", "cn", "cm", "gr", "kk", "kr", "kt", "ll", "lf", "lg", "lr", "ld", "nn", "nt", "nr", "mr", "mm", "md", "rr", "rk", "rt", "st", "sn", "sm", "th", "sh", "tt", "tr", "zz"];
-var nm4 = ["", "", "", "c", "h", "k", "l", "n", "nt", "r", "s", "th"];
-var nm5 = ["b", "c", "d", "f", "h", "k", "l", "m", "n", "r", "s"];
-var nm6 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ea", "ia"];
-var nm7 = ["d", "f", "g", "j", "k", "l", "m", "n", "r", "sh", "th", "mm", "nn", "ll", "dh", "mh", "nh", "kr", "dr", "gr", "ml", "kl"];
-var nm8 = ["b", "d", "g", "h", "j", "k", "l", "m", "n", "r", "s", "t", "v", "y", "z"];
-var nm9 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ou", "ei", "ea", "ia"];
-var nm10 = ["ct", "cn", "cm", "gr", "kk", "kr", "kt", "ll", "lg", "lf", "ld", "lr", "lkk", "k", "mm", "mr", "md", "nn", "nr", "nd", "nt", "nn", "r", "rr", "rt", "rkk", "sh", "st", "sn", "sm", "th", "sh", "tt", "tr", "zz"];
-
 function generator$star_wars$anzatis(type) {
+	var nm1 = ["", "", "", "b", "d", "g", "h", "k", "m", "n", "r", "s", "v", "z"];
+	var nm2 = ["a", "e", "i", "o", "u"];
+	var nm3 = ["ct", "cn", "cm", "gr", "kk", "kr", "kt", "ll", "lf", "lg", "lr", "ld", "nn", "nt", "nr", "mr", "mm", "md", "rr", "rk", "rt", "st", "sn", "sm", "th", "sh", "tt", "tr", "zz"];
+	var nm4 = ["", "", "", "c", "h", "k", "l", "n", "nt", "r", "s", "th"];
+	var nm5 = ["b", "c", "d", "f", "h", "k", "l", "m", "n", "r", "s"];
+	var nm6 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ea", "ia"];
+	var nm7 = ["d", "f", "g", "j", "k", "l", "m", "n", "r", "sh", "th", "mm", "nn", "ll", "dh", "mh", "nh", "kr", "dr", "gr", "ml", "kl"];
+	var nm8 = ["b", "d", "g", "h", "j", "k", "l", "m", "n", "r", "s", "t", "v", "y", "z"];
+	var nm9 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "ou", "ei", "ea", "ia"];
+	var nm10 = ["ct", "cn", "cm", "gr", "kk", "kr", "kt", "ll", "lg", "lf", "ld", "lr", "lkk", "k", "mm", "mr", "md", "nn", "nr", "nd", "nt", "nn", "r", "rr", "rt", "rkk", "sh", "st", "sn", "sm", "th", "sh", "tt", "tr", "zz"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		rnd6 = Math.floor(Math.random() * nm8.length);

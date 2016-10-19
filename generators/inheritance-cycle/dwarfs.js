@@ -1,15 +1,14 @@
-﻿
-var nm1 = ["", "", "", "", "b", "br", "bl", "d", "dr", "f", "fl", "fr", "g", "gr", "h", "ht", "hv", "k", "kr", "kv", "m", "n", "r", "sk", "sv", "th", "thr", "v"];
-var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "au", "û", "ó", "é", "á", "î", "â", "ei", "ie", "eo"];
-var nm3 = ["d", "dg", "dr", "fn", "g", "gn", "gd", "gm", "k", "kr", "kksv", "kn", "km", "ldh", "ldhr", "lm", "m", "mm", "mn", "nd", "ndf", "nn", "nndr", "r", "rd", "rg", "rgh", "rh", "rm", "rr", "s", "st", "th", "thg", "thm", "v", "w"];
-var nm4 = ["", "", "", "", "", "fk", "g", "k", "kk", "l", "ldn", "m", "n", "nd", "r", "rd", "rk", "rm", "rn", "rst", "rv", "s", "st", "th"];
+function generator$inheritance_cycle$dwarfs(type) {﻿
+	var nm1 = ["", "", "", "", "b", "br", "bl", "d", "dr", "f", "fl", "fr", "g", "gr", "h", "ht", "hv", "k", "kr", "kv", "m", "n", "r", "sk", "sv", "th", "thr", "v"];
+	var nm2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "au", "û", "ó", "é", "á", "î", "â", "ei", "ie", "eo"];
+	var nm3 = ["d", "dg", "dr", "fn", "g", "gn", "gd", "gm", "k", "kr", "kksv", "kn", "km", "ldh", "ldhr", "lm", "m", "mm", "mn", "nd", "ndf", "nn", "nndr", "r", "rd", "rg", "rgh", "rh", "rm", "rr", "s", "st", "th", "thg", "thm", "v", "w"];
+	var nm4 = ["", "", "", "", "", "fk", "g", "k", "kk", "l", "ldn", "m", "n", "nd", "r", "rd", "rk", "rm", "rn", "rst", "rv", "s", "st", "th"];
 
-var nm5 = ["bh", "d", "dh", "f", "fl", "fr", "fn", "g", "gl", "gh", "gl", "h", "hn", "hr", "hl", "hv", "m", "n", "mh", "s", "th", "v"];
-var nm6 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "û", "í", "á", "ûi", "io", "îo"];
-var nm7 = ["d", "df", "dr", "fn", "fl", "fr", "gn", "gm", "gh", "l", "ln", "lm", "lr", "ld", "ll", "m", "mr", "mn", "mh", "md", "mm", "nd", "nr", "nh", "nn", "n", "ngl", "nh", "r", "rd", "rdr", "rn", "rh", "s", "ss", "th", "v", "w"];
-var nm8 = ["", "", "", "", "", "n", "nn", "s"];
+	var nm5 = ["bh", "d", "dh", "f", "fl", "fr", "fn", "g", "gl", "gh", "gl", "h", "hn", "hr", "hl", "hv", "m", "n", "mh", "s", "th", "v"];
+	var nm6 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "û", "í", "á", "ûi", "io", "îo"];
+	var nm7 = ["d", "df", "dr", "fn", "fl", "fr", "gn", "gm", "gh", "l", "ln", "lm", "lr", "ld", "ll", "m", "mr", "mn", "mh", "md", "mm", "nd", "nr", "nh", "nn", "n", "ngl", "nh", "r", "rd", "rdr", "rn", "rh", "s", "ss", "th", "v", "w"];
+	var nm8 = ["", "", "", "", "", "n", "nn", "s"];
 
-function generator$inheritance_cycle$dwarfs(type) {
 
 	i = Math.floor(Math.random() * 10); {
 		if (type === 1) {

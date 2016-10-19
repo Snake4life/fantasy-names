@@ -1,19 +1,19 @@
-var nm1 = ["A", "E", "I", "O", "U", "Au", "Eau", "A", "E", "I", "O"];
-var nm2 = ["b", "d", "f", "j", "l", "m", "n", "p", "r", "s", "t", "v", "z", "br", "dr", "fr", "gr", "str", "tr", "vr", "rr", "fl", "gl", "ll", "pl", "rl", "ch", "ph", "sh", "lb", "ld", "lf", "lm", "ln", "lp", "ls", "lv", "lw"];
-var nm3 = ["B", "C", "D", "F", "G", "H", "J", "K", "L", "M", "N", "P", "R", "S", "T", "V", "Z", "Br", "Dr", "Gr", "Pr", "Tr", "Cl", "Gl", "Sh", "Ph"];
-var nm4 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "eau", "oi", "au", "io", "ai", "eo", "ou", "ei", "io", "ia"];
-var nm5 = ["b", "c", "d", "f", "h", "l", "m", "n", "p", "r", "s", "t", "v", "w", "x", "y", "z", "ff", "ll", "mm", "nn", "rr", "ss", "tt", "sh", "ph", "ch"];
-var nm6 = ["onne", "inne", "anne", "ionne", "ianne", "one", "ine", "ane", "ione", "iane", "ette", "elle", "itte", "ie", "iene", "enne", "ene", "eanne", "eane", "eone", "eonne"];
-
-var nm7 = ["ant", "ault", "aut", "aux", "ax", "eaux", "ent", "ert", "eux", "ex", "ix", "oix", "ont", "ort", "oux"];
-
-var nm8 = ["a", "e", "i", "o", "u", "ui", "eau", "ai", "ou", "au", "ui", "ea", "ie"];
-var nm9 = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "b", "c", "d", "f", "g", "h", "j", "l", "m", "n", "p", "r", "s", "t", "v"];
-var nm10 = ["", "a", "e", "i", "o", "u"];
-var nm11 = ["b", "c", "d", "f", "g", "h", "j", "l", "m", "n", "p", "r", "s", "t", "v"];
-var nm12 = ["ain", "air", "aire", "ame", "anc", "and", "ane", "ant", "ard", "at", "ault", "aut", "aux", "eaux", "elle", "ent", "eois", "ert", "ette", "eur", "eux", "ie", "ier", "iere", "ieu", "in", "ine", "ins", "ione", "ionne", "ois", "oix", "on", "ond", "ont", "ort", "oud", "oux", "oy", "uet", "uste"];
-
 function generator$final_fantasy$elezens(type) {
+	var nm1 = ["A", "E", "I", "O", "U", "Au", "Eau", "A", "E", "I", "O"];
+	var nm2 = ["b", "d", "f", "j", "l", "m", "n", "p", "r", "s", "t", "v", "z", "br", "dr", "fr", "gr", "str", "tr", "vr", "rr", "fl", "gl", "ll", "pl", "rl", "ch", "ph", "sh", "lb", "ld", "lf", "lm", "ln", "lp", "ls", "lv", "lw"];
+	var nm3 = ["B", "C", "D", "F", "G", "H", "J", "K", "L", "M", "N", "P", "R", "S", "T", "V", "Z", "Br", "Dr", "Gr", "Pr", "Tr", "Cl", "Gl", "Sh", "Ph"];
+	var nm4 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "eau", "oi", "au", "io", "ai", "eo", "ou", "ei", "io", "ia"];
+	var nm5 = ["b", "c", "d", "f", "h", "l", "m", "n", "p", "r", "s", "t", "v", "w", "x", "y", "z", "ff", "ll", "mm", "nn", "rr", "ss", "tt", "sh", "ph", "ch"];
+	var nm6 = ["onne", "inne", "anne", "ionne", "ianne", "one", "ine", "ane", "ione", "iane", "ette", "elle", "itte", "ie", "iene", "enne", "ene", "eanne", "eane", "eone", "eonne"];
+
+	var nm7 = ["ant", "ault", "aut", "aux", "ax", "eaux", "ent", "ert", "eux", "ex", "ix", "oix", "ont", "ort", "oux"];
+
+	var nm8 = ["a", "e", "i", "o", "u", "ui", "eau", "ai", "ou", "au", "ui", "ea", "ie"];
+	var nm9 = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "b", "c", "d", "f", "g", "h", "j", "l", "m", "n", "p", "r", "s", "t", "v"];
+	var nm10 = ["", "a", "e", "i", "o", "u"];
+	var nm11 = ["b", "c", "d", "f", "g", "h", "j", "l", "m", "n", "p", "r", "s", "t", "v"];
+	var nm12 = ["ain", "air", "aire", "ame", "anc", "and", "ane", "ant", "ard", "at", "ault", "aut", "aux", "eaux", "elle", "ent", "eois", "ert", "ette", "eur", "eux", "ie", "ier", "iere", "ieu", "in", "ine", "ins", "ione", "ionne", "ois", "oix", "on", "ond", "ont", "ort", "oud", "oux", "oy", "uet", "uste"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		if (type === 1) {

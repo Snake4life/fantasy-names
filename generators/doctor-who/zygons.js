@@ -1,9 +1,9 @@
-var nm1 = ["B", "Br", "Cr", "D", "Dr", "G", "Gr", "K", "Kr", "R", "S", "Sr", "Str", "St", "T", "Tr", "V", "Vr"];
-var nm2 = ["e", "a", "o"];
-var nm3 = ["d", "g", "k", "l", "m", "n", "s", "t", "v", "w", "z"];
-var nm4 = ["l", "m", "n", "r", "rm", "rn", "s", "st"];
-
 function generator$doctor_who$zygons() {
+	var nm1 = ["B", "Br", "Cr", "D", "Dr", "G", "Gr", "K", "Kr", "R", "S", "Sr", "Str", "St", "T", "Tr", "V", "Vr"];
+	var nm2 = ["e", "a", "o"];
+	var nm3 = ["d", "g", "k", "l", "m", "n", "s", "t", "v", "w", "z"];
+	var nm4 = ["l", "m", "n", "r", "rm", "rn", "s", "st"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		rnd = Math.floor(Math.random() * nm1.length);

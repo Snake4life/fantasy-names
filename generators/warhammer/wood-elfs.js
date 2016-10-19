@@ -1,14 +1,14 @@
-var nm1 = ["", "", "", "c", "d", "dh", "g", "k", "kh", "sc", "str", "t", "th", "tr", "v", "z"];
-var nm2 = ["a", "i", "o", "u", "a", "i", "o", "u", "a", "i", "o", "u", "a", "a", "o", "o", "a", "o", "o", "a", "io", "aa", "ae", "ia"];
-var nm3 = ["c", "d", "k", "l", "r", "c", "d", "k", "l", "r", "c", "cc", "cr", "dr", "d", "k", "kk", "lc", "lg", "lk", "ll", "lt", "lv", "l", "r", "rl", "rt", "rc", "rg", "rn", "sc", "sr", "st", "sl", "th", "tr", "tt", "zc", "zk", "zl"];
-var nm4 = ["", "", "", "c", "n", "s", "t", "th"];
-var nm5 = ["", "", "", "", "", "d", "dh", "dr", "f", "h", "l", "m", "n", "ph", "q", "s", "th", "v", "y"];
-var nm6 = ["a", "e", "i", "y", "a", "e", "i", "y", "a", "e", "i", "y", "a", "e", "a", "a", "e", "e", "ie", "ae"];
-var nm7 = ["c", "cc", "ch", "d", "dd", "dr", "h", "hh", "lc", "ll", "lv", "ls", "lt", "lth", "ln", "lm", "l", "n", "nn", "nr", "nv", "nd", "ph", "r", "rl", "rr", "rv", "rl", "s", "ss", "sh", "st", "str", "sv", "t", "th", "tr", "v"];
-var nm8 = ["", "", "", "", "f", "h", "l", "n", "s", "th"];
-
-
 function generator$warhammer$wood_elfs(type) {
+	var nm1 = ["", "", "", "c", "d", "dh", "g", "k", "kh", "sc", "str", "t", "th", "tr", "v", "z"];
+	var nm2 = ["a", "i", "o", "u", "a", "i", "o", "u", "a", "i", "o", "u", "a", "a", "o", "o", "a", "o", "o", "a", "io", "aa", "ae", "ia"];
+	var nm3 = ["c", "d", "k", "l", "r", "c", "d", "k", "l", "r", "c", "cc", "cr", "dr", "d", "k", "kk", "lc", "lg", "lk", "ll", "lt", "lv", "l", "r", "rl", "rt", "rc", "rg", "rn", "sc", "sr", "st", "sl", "th", "tr", "tt", "zc", "zk", "zl"];
+	var nm4 = ["", "", "", "c", "n", "s", "t", "th"];
+	var nm5 = ["", "", "", "", "", "d", "dh", "dr", "f", "h", "l", "m", "n", "ph", "q", "s", "th", "v", "y"];
+	var nm6 = ["a", "e", "i", "y", "a", "e", "i", "y", "a", "e", "i", "y", "a", "e", "a", "a", "e", "e", "ie", "ae"];
+	var nm7 = ["c", "cc", "ch", "d", "dd", "dr", "h", "hh", "lc", "ll", "lv", "ls", "lt", "lth", "ln", "lm", "l", "n", "nn", "nr", "nv", "nd", "ph", "r", "rl", "rr", "rv", "rl", "s", "ss", "sh", "st", "str", "sv", "t", "th", "tr", "v"];
+	var nm8 = ["", "", "", "", "f", "h", "l", "n", "s", "th"];
+
+
 
 	i = Math.floor(Math.random() * 10); {
 		if (type === 1) {

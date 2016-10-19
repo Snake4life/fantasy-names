@@ -1,8 +1,8 @@
-var nm1 = ["", "", "", "", "b", "d", "f", "g", "h", "k", "l", "m", "n", "p", "r", "s", "t", "w", "y", "z"];
-var nm2 = ["a", "u", "o", "e"];
-var nm3 = ["u", "o", "u", "o", "u", "o", "oo"];
-
 function generator$legend_of_zelda$anoukis() {
+	var nm1 = ["", "", "", "", "b", "d", "f", "g", "h", "k", "l", "m", "n", "p", "r", "s", "t", "w", "y", "z"];
+	var nm2 = ["a", "u", "o", "e"];
+	var nm3 = ["u", "o", "u", "o", "u", "o", "oo"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		rnd = Math.floor(Math.random() * nm1.length);

@@ -1,18 +1,18 @@
-var nm1 = ["", "", "dr", "g", "gr", "h", "kr", "m", "pr", "q", "r", "sr", "sh", "z", "zh"];
-var nm2 = ["a", "ei", "i", "o", "e", "a", "e", "i", "o", "a", "a"];
-var nm3 = ["dn", "d", "gh", "ghd", "gn", "nd", "md", "k", "kh", "kn", "kl", "q", "qh", "qn", "rd", "rn", "rm", "sn", "zd", "zh", "zn", "zm", "zl"];
-var nm4 = ["hr", "hl", "k", "l", "n", "q", "r", "s", "z"];
-var nm5 = ["zo", "na", "mo"];
-var nm6 = ["Ch", "D", "G", "H", "K", "L", "M", "N", "P", "Pr", "R", "S", "Sh", "Z", "Zh"];
-var nm7 = ["a", "e", "i", "o", "a", "a"];
-var nm8 = ["dn", "g", "gd", "ghd", "gn", "nd", "n", "m", "md", "kh", "l", "q", "qh", "qn", "r", "rr", "sh", "ss", "zz", "zd", "zh", "zn", "zm", "zl"];
-var nm9 = ["", "", "", "d", "dh", "g", "gh", "h", "k", "l", "m", "n", "p", "qu", "r", "rh", "sh", "yh", "zh", "z"];
-var nm10 = ["a", "e", "i", "u", "o", "a", "a"];
-var nm11 = ["", "", "", "", "", "dh", "g", "hn", "hz", "hl", "kn", "kl", "l", "llh", "md", "nd", "q", "qu", "qq", "r", "rr", "rd", "sh", "sn", "z", "zk", "zz", "zn", "zd", "zh"];
-var nm12 = ["", "a", "e", "i", "u", "o", "a", "a"];
-var nm13 = ["", "", "", "hl", "k", "n", "q", "r", "z", "zn"];
-
 function generator$game_of_thrones$ghiscaris(type) {
+	var nm1 = ["", "", "dr", "g", "gr", "h", "kr", "m", "pr", "q", "r", "sr", "sh", "z", "zh"];
+	var nm2 = ["a", "ei", "i", "o", "e", "a", "e", "i", "o", "a", "a"];
+	var nm3 = ["dn", "d", "gh", "ghd", "gn", "nd", "md", "k", "kh", "kn", "kl", "q", "qh", "qn", "rd", "rn", "rm", "sn", "zd", "zh", "zn", "zm", "zl"];
+	var nm4 = ["hr", "hl", "k", "l", "n", "q", "r", "s", "z"];
+	var nm5 = ["zo", "na", "mo"];
+	var nm6 = ["Ch", "D", "G", "H", "K", "L", "M", "N", "P", "Pr", "R", "S", "Sh", "Z", "Zh"];
+	var nm7 = ["a", "e", "i", "o", "a", "a"];
+	var nm8 = ["dn", "g", "gd", "ghd", "gn", "nd", "n", "m", "md", "kh", "l", "q", "qh", "qn", "r", "rr", "sh", "ss", "zz", "zd", "zh", "zn", "zm", "zl"];
+	var nm9 = ["", "", "", "d", "dh", "g", "gh", "h", "k", "l", "m", "n", "p", "qu", "r", "rh", "sh", "yh", "zh", "z"];
+	var nm10 = ["a", "e", "i", "u", "o", "a", "a"];
+	var nm11 = ["", "", "", "", "", "dh", "g", "hn", "hz", "hl", "kn", "kl", "l", "llh", "md", "nd", "q", "qu", "qq", "r", "rr", "rd", "sh", "sn", "z", "zk", "zz", "zn", "zd", "zh"];
+	var nm12 = ["", "a", "e", "i", "u", "o", "a", "a"];
+	var nm13 = ["", "", "", "hl", "k", "n", "q", "r", "z", "zn"];
+
 
 	i = Math.floor(Math.random() * 10); {
 		rnd9 = Math.floor(Math.random() * nm9.length);

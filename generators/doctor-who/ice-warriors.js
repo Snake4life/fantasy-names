@@ -1,10 +1,10 @@
-var nm1 = ["h", "gr", "g", "gl", "k", "kr", "kl", "r", "sk", "sl", "ss", "sr", "sz", "v", "vr", "xz", "x", "xr", "xzn", "z"];
-var nm2 = ["a", "i", "o", "e", "aa", "a", "u", "a", "y", "a"];
-var nm3 = ["d", "dr", "kss", "ld", "m", "nt", "r", "rt", "rd", "rn", "rg", "sb", "sr", "sz", "szr", "zr", "ssb", "x", "xl", "z", "zd"];
-var nm4 = ["d", "dz", "k", "kz", "l", "lk", "n", "r", "rd", "rzz", "rz", "rs", "x", "z"];
-var nm5 = ["a", "", "", "", "", "", ""];
-
 function generator$doctor_who$ice_warriors() {
+	var nm1 = ["h", "gr", "g", "gl", "k", "kr", "kl", "r", "sk", "sl", "ss", "sr", "sz", "v", "vr", "xz", "x", "xr", "xzn", "z"];
+	var nm2 = ["a", "i", "o", "e", "aa", "a", "u", "a", "y", "a"];
+	var nm3 = ["d", "dr", "kss", "ld", "m", "nt", "r", "rt", "rd", "rn", "rg", "sb", "sr", "sz", "szr", "zr", "ssb", "x", "xl", "z", "zd"];
+	var nm4 = ["d", "dz", "k", "kz", "l", "lk", "n", "r", "rd", "rzz", "rz", "rs", "x", "z"];
+	var nm5 = ["a", "", "", "", "", "", ""];
+
 
 	i = Math.floor(Math.random() * 10); {
 		if (i < 5) {
