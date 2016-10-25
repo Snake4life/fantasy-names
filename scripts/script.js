@@ -8,10 +8,10 @@ var output   = document.getElementById('output');
 // Load cookie
 if(readCookie("selectedGenerator") != null) {
 	var options = readCookie("selectedGenerator").split("$");
-	nametype.value = options[0];
+	nametype.value      = options[0];
 	getnamelist().value = options[1];
-	gender.value = options[2];
-	quantity.value = options[3];
+	gender.value        = options[2];
+	quantity.value      = options[3];
 }
 
 // Generate names
