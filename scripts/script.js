@@ -21,20 +21,20 @@ function generate() {
 	if(nametype.value == "descriptions") quantity.value = 1; // Fix lagging
 	
 	// Check if the script is loaded, if not load .min.js, if not error
-	var generator = window["generator$"+nametype.value.replace(/-/g, '_')+"$"+getnamelist().value.replace(/-/g, '_')];
+	var generator = window["generator$"+nametype.value.replace(/-/g, '_')+"$"+getnamelist().value];
 	if(typeof generator === 'function') {
 		output.setAttribute("data-generator", nametype.value+"$"+getnamelist().value);
 		output.innerText = "";
 		for(var i = 0; i < quantity.value; i++) output.innerText += generator(gender.value == "female" ? 1 : 0) + "\n";
 	} else {
 		loadScript("generators/"+nametype.value+"/"+getnamelist().value+".min.js", function() {
-			var generator = window["generator$"+nametype.value.replace(/-/g, '_')+"$"+getnamelist().value.replace(/-/g, '_')];
+			var generator = window["generator$"+nametype.value.replace(/-/g, '_')+"$"+getnamelist().value];
 			if(typeof generator === 'function') {
 				output.setAttribute("data-generator", nametype.value+"$"+getnamelist().value);
 				output.innerText = "";
 				for(var i = 0; i < quantity.value; i++) output.innerText += generator(gender.value == "female" ? 1 : 0) + "\n";
 			} else {
-				console.log("Not found: generator$"+nametype.value.replace(/-/g, '_')+"$"+getnamelist().value.replace(/-/g, '_'));
+				console.log("Not found: generator$"+nametype.value.replace(/-/g, '_')+"$"+getnamelist());
 			}
 		});
 	}
