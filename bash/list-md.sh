@@ -1,4 +1,4 @@
-cd "$(dirname "$0")/generators"
+cd "$(dirname "$0")/../generators"
 
 for type in `find -type d ! -path . ! -path '*.min.js' -printf "%f\n"`; do
 	pretty=${type//_/ }

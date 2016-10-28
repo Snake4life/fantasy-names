@@ -1,4 +1,4 @@
-cd "$(dirname "$0")/generators"
+cd "$(dirname "$0")/../generators"
 
 echo -e "<select class=\"nametype\">"
 for type in `find -type d ! -path . ! -path '*.min.js' -printf "%f\n"`; do
